@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paises>
+  	<record id="GHA" name ="GHANA" />
+	<record id="ARG" name ="REPUBLICA ARGENTINA" />
+	<record id="BOL" name ="BOLIVIA" />
+	<record id="YUG" name ="YUGOSLAVIA" />
+	<record id="UCR" name ="UCRANIA" />
+	<record id="CHI" name ="CHILE" />
+	<record id="ITA" name ="ITALIA" />
+	<record id="PAR" name ="PARAGUAY" />
+	<record id="AUS" name ="AUSTRIA" />
+	<record id="URU" name ="URUGUAY" />
+	<record id="DIN" name ="DINAMARCA" />
+	<record id="JAP" name ="JAPON" />
+	<record id="DES" name ="DESCONOCIDO" />
+	<record id="PER" name ="PERU" />
+	<record id="SIR" name ="SIRIA" />
+	<record id="ESP" name ="ESPAÑA" />
+	<record id="RUS" name ="RUSIA" />
+	<record id="POL" name ="POLONIA" />
+	<record id="BRA" name ="BRASIL" />
+	<record id="USA" name ="ESTADOS UNIDOS" />
+	<record id="RUM" name ="RUMANIA" />
+	<record id="DOM" name ="REPUBLICA DOMINICANA" />
+	<record id="POR" name ="PORTUGAL" />
+	<record id="ARA" name ="ARABIA" />
+	<record id="FRA" name ="FRANCIA" />
+	<record id="HUN" name ="HUNGRÍA" />
+	<record id="MEX" name ="MEXICO" />
+	<record id="CHP" name ="CHIPRE" />
+	<record id="CHE" name ="CHECOSLOVAQUIA" />
+	<record id="TUR" name ="TURQUIA" />
+	<record id="ALE" name ="ALEMANIA" />
+	<record id="SUI" name ="SUIZA" />
+	<record id="CAN" name ="CANADA" />
+	<record id="LIB" name ="LIBIA" />
+	<record id="LIT" name ="LITUANIA" />
+	<record id="PUE" name ="PUERTO RICO" />
+	<record id="ING" name ="INGLATERRA" />
+	<record id="EST" name ="ESTONIA" />
+	<record id="ARM" name ="ARMENIA" />
+	<record id="BEL" name ="BELGICA" />
+	<record id="GRE" name ="GRECIA" />
+	<record id="CRO" name ="CROACIA" />
+	<record id="HOL" name ="HOLANDA" />
+	<record id="ECU" name ="ECUADOR" />
+	<record id="CUB" name ="CUBA" />
+	<record id="SAN" name ="SAN MARINO" />
+	<record id="COL" name ="COLOMBIA" />
+	<record id="COR" name ="COREA" />
+	<record id="ALB" name ="ALBANIA" />
+	<record id="AOC" name ="ALEMANIA OCCIDENTAL" />
+	<record id="AOR" name ="ALEMANIA ORIENTAL" />
+	<record id="AUL" name ="AUSTRALIA" />
+	<record id="BAN" name ="BANGLADESH" />
+	<record id="BIR" name ="BIRMANIA" />
+	<record id="BUL" name ="BULGARIA" />
+	<record id="CHN" name ="CHINA" />
+	<record id="COS" name ="COREA DEL SUR" />
+	<record id="CMA" name ="COSTA DE MARFIL" />
+	<record id="CCA" name ="COSTA RICA" />
+	<record id="EGI" name ="EGIPTO" />
+	<record id="SAL" name ="EL SALVADOR" />
+	<record id="ESC" name ="ESCOCIA" />
+	<record id="ETI" name ="ETIOPIA" />
+	<record id="FIL" name ="FILIPINAS" />
+	<record id="FIN" name ="FINLANDIA" />
+	<record id="FOR" name ="FORMOSA" />
+	<record id="BRE" name ="GRAN BRETAÑA" />
+	<record id="GUA" name ="GUATEMALA" />
+	<record id="GUI" name ="GUINEA" />
+	<record id="HAI" name ="HAITI" />
+	<record id="HON" name ="HONDURAS" />
+	<record id="HK" name ="HONG KONG" />
+	<record id="INA" name ="INDIA" />
+	<record id="INO" name ="INDONESIA" />
+	<record id="IRA" name ="IRAN" />
+	<record id="IRL" name ="IRLANDA" />
+	<record id="ISR" name ="ISRAEL" />
+	<record id="JAM" name ="JAMAICA" />
+	<record id="JOR" name ="JORDANIA" />
+	<record id="KEN" name ="KENYA" />
+	<record id="LII" name ="LIBANO" />
+	<record id="LIE" name ="LIBERIA" />
+	<record id="LUX" name ="LUXEMBURGO" />
+	<record id="MAD" name ="MADAGASCAR" />
+	<record id="MAL" name ="MALI" />
+	<record id="MAR" name ="MARRUECOS" />
+	<record id="MON" name ="MONACO" />
+	<record id="MOZ" name ="MOZAMBIQUE" />
+	<record id="NIC" name ="NICARAGUA" />
+	<record id="NIG" name ="NIGERIA" />
+	<record id="NOR" name ="NORUEGA" />
+	<record id="NZE" name ="NUEVA ZELANDA" />
+	<record id="OTR" name ="OTRA" />
+	<record id="PBJ" name ="PAISES BAJOS" />
+	<record id="PAN" name ="PANAMA" />
+	<record id="PAQ" name ="PAQUISTAN" />
+	<record id="PRC" name ="PUERTO RICO" />
+	<record id="ROA" name ="R.O. DE ARGELIA" />
+	<record id="RAF" name ="RESTO DE AFRICA" />
+	<record id="RAM" name ="RESTO DE AMERICA" />
+	<record id="RAS" name ="RESTO DE ASIA" />
+	<record id="REU" name ="RESTO DE EUROPA" />
+	<record id="ROC" name ="RESTO DE OCEANIA" />
+	<record id="SEN" name ="SENEGAL" />
+	<record id="SIN" name ="SINGAPUR" />
+	<record id="SAF" name ="SUDAFRICA" />
+	<record id="SUD" name ="SUDAN" />
+	<record id="SUE" name ="SUECIA" />
+	<record id="TAI" name ="TAILANDIA" />
+	<record id="TRT" name ="TRINIDAD - TOBAGO" />
+	<record id="TUN" name ="TUNEZ" />
+	<record id="UGA" name ="UGANDA" />
+	<record id="VEN" name ="VENEZUELA" />
+	<record id="ZAI" name ="ZAIRE" />
+	<record id="IND" name ="INDOCUMENTADO" />
+	<record id="CVE" name ="CABO VERDE" />
+	<record id="SUR" name ="SURINAM" />
+	<record id="RN" name ="RECIEN NACIDO" />
+	<record id="LNO" name ="LIBANO" />
+	<record id="ISL" name ="ISLANDIA" />
+	<record id="ARL" name ="ARGELIA" />
+	<record id="KUW" name ="KUWAIT" />
+	<record id="EAU" name ="EMIRATOS ARABES UNIDOS" />
+	<record id="RBR" name ="REPUBLICA DE BIELORRUSIA" />
+	<record id="AND" name ="PRINCIPADO DE ANDORRA" />
+	<record id="ESL" name ="ESLOVAQUIA" />
+</paises>

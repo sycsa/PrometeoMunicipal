@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+      <item type="id" name="decode"/>
+	  <item type="id" name="decode_failed"/>
+	  <item type="id" name="decode_succeeded"/>
+	  <item type="id" name="launch_product_query"/>
+	  <item type="id" name="quit"/>
+	  <item type="id" name="restart_preview"/>
+	  <item type="id" name="return_scan_result"/>
+    
+    <item type="id" name="connection_screen_layout" />
+    <item type="id" name="radioGroup" />
+    <item type="id" name="bluetoothRadio" />
+    <item type="id" name="ipDnsRadio" />
+    <item type="id" name="btManualAddLayout" />
+    <item type="id" name="macAddressText" />
+    <item type="id" name="macInput" />
+    <item type="id" name="ipManualAddLayout" />
+    <item type="id" name="ipAddressText" />
+    <item type="id" name="ipAddressInput" />
+    <item type="id" name="portText" />
+    <item type="id" name="portInput" />
+    <item type="id" name="manual_add_printer_button" />
+    <item type="id" name="asset_icon" />
+    <item type="id" name="asset_description" />
+    <item type="id" name="asset_tag_main_layout" />
+    <item type="id" name="asset_tag_preview_icon" />
+    <item type="id" name="asset_tag_preview_description" />
+    <item type="id" name="print_preview_button" />
+    <item type="id" name="screen" />
+    <item type="id" name="left_text" />
+    <item type="id" name="right_text" />
+    <item type="id" name="main_progress_bar" />
+    <item type="id" name="FILE_IMAGE" />
+    <item type="id" name="FILE_NAME" />
+    <item type="id" name="formatVarLabel" />
+    <item type="id" name="formatVarEditText" />
+    <item type="id" name="error_icon" />
+    <item type="id" name="error_message" />
+    <item type="id" name="webFileTable" />
+    <item type="id" name="fileName" />
+    <item type="id" name="checkBox" />
+    <item type="id" name="fileDate" />
+    <item type="id" name="fileSize" />
+    <item type="id" name="zebraProgressBar" />
+    <item type="id" name="list_item_image" />
+    <item type="id" name="list_item_text_1" />
+    <item type="id" name="list_item_text_2" />
+    <item type="id" name="mainPortraitLayout" />
+    <item type="id" name="main_screen_buttonrow1" />
+    <item type="id" name="pdfFilesButton" />
+    <item type="id" name="filesButton" />
+    <item type="id" name="main_screen_buttonrow2" />
+    <item type="id" name="photoIdButton" />
+    <item type="id" name="assetTagButton" />
+    <item type="id" name="trafficTicketButton" />
+    <item type="id" name="webFilesButton" />
+    <item type="id" name="ZebraLogoLayoutPortrait" />
+    <item type="id" name="ZebraHeadLogoPortrait" />
+    <item type="id" name="LinearLayoutZebraHead" />
+    <item type="id" name="ZebraHeadLogoLandscape" />
+    <item type="id" name="versionText" />
+    <item type="id" name="asset_tag_list" />
+    <item type="id" name="knownPrinterLabel" />
+    <item type="id" name="knownPrintersList" />
+    <item type="id" name="discoPrinterLabel" />
+    <item type="id" name="discoveredPrintersList" />
+    <item type="id" name="add_printer_button" />
+    <item type="id" name="add_printer_button_areaToClick" />
+    <item type="id" name="storedFormatTextView" />
+    <item type="id" name="formatVarButton" />
+    <item type="id" name="printQuantityLayout" />
+    <item type="id" name="formatVarPrintLabel" />
+    <item type="id" name="formatVarPrintQuantity" />
+    <item type="id" name="printFormatVarList" />
+    <item type="id" name="firstName" />
+    <item type="id" name="firstNameInput" />
+    <item type="id" name="lastName" />
+    <item type="id" name="lastNameInput" />
+    <item type="id" name="cameraButton" />
+    <item type="id" name="galleryButton" />
+    <item type="id" name="print_button" />
+    <item type="id" name="preview_image" />
+    <item type="id" name="traffic_ticket_main_layout" />
+    <item type="id" name="edit_layout" />
+    <item type="id" name="LicensePlateInput" />
+    <item type="id" name="offense_text" />
+    <item type="id" name="traffic_ticket_picker" />
+    <item type="id" name="violator_linear_layout" />
+    <item type="id" name="violator_list" />
+    <item type="id" name="signature_header" />
+    <item type="id" name="signature_image" />
+    <item type="id" name="traffic_ticket_print_button" />
+    <item type="id" name="webFilesList" />
+    <item type="id" name="webFilesEmptyList" />
+    <item type="id" name="zebraWebView" />
+    <item type="id" name="signature_capture" />
+    <item type="id" name="statusRelativeLayout" />
+    <item type="id" name="statusLabel" />
+    <item type="id" name="statusOfPrinter" />
+    <item type="id" name="statusRefreshButton" />
+    <item type="id" name="statusMessageLayout" />
+    <item type="id" name="numberOfErrorsLabel" />
+    <item type="id" name="statusMessageList" />
+    <item type="id" name="statusLayout" />
+    <item type="id" name="lastUpdateTime" />
+    <item type="id" name="violator_cell" />
+    <item type="id" name="violator_cell_label" />
+    <item type="id" name="violator_cell_info" />
+    <item type="id" name="choose_printer" />
+    <item type="id" name="status" />
+    <item type="id" name="webpage" />
+    <item type="id" name="options" />
+    <item type="id" name="about" />
+    <item type="id" name="Back" />
+    <item type="id" name="Forward" />
+    <item type="id" name="Refresh" />
+</resources>

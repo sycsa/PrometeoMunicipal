@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+      <string-array name="country_codes" tools:ignore="MissingTranslation">
+    <item>-</item>
+    <item>AR</item>
+    <item>AU</item>
+    <item>BR</item>
+    <item>BG</item>
+    <item>CA</item>
+    <item>CH</item>
+    <item>CN</item>
+    <item>CZ</item>
+    <item>DE</item>
+    <item>DK</item>
+    <item>ES</item>
+    <item>FI</item>
+    <item>FR</item>
+    <item>GB</item>
+    <item>GR</item>
+    <item>HU</item>
+    <item>ID</item>
+    <item>IT</item>
+    <item>JP</item>
+    <item>KR</item>
+    <item>NL</item>
+    <item>PL</item>
+    <item>PT</item>
+    <item>RO</item>    
+    <item>RU</item>
+    <item>SE</item>
+    <item>SK</item>
+    <item>SI</item>
+    <item>TR</item>
+    <item>TW</item>
+    <item>US</item>
+  </string-array>
+  <string-array name="preferences_front_light_values" tools:ignore="MissingTranslation">
+    <item>ON</item>
+    <item>AUTO</item>
+    <item>OFF</item>
+  </string-array>
+  <string-array name="preferences_front_light_options">
+    <item>@string/preferences_front_light_on</item>
+    <item>@string/preferences_front_light_auto</item>
+    <item>@string/preferences_front_light_off</item>
+  </string-array>
+    
+    <string-array name="printerLanguageOptions">
+        <item>Use Default</item>
+        <item>ZPL</item>
+        <item>CPCL</item>
+    </string-array>
+    <string-array name="pageSizeChoices">
+        <item>Custom...</item>
+        <item>3x1 (203 dpi)</item>
+        <item>3x1 (300 dpi)</item>
+        <item>3x1 (600 dpi)</item>
+        <item>3x2 (203 dpi)</item>
+        <item>3x2 (300 dpi)</item>
+        <item>3x2 (600 dpi)</item>
+        <item>4x2 (203 dpi)</item>
+        <item>4x2 (300 dpi)</item>
+        <item>4x2 (600 dpi)</item>
+        <item>4x4 (203 dpi)</item>
+        <item>4x4 (300 dpi)</item>
+        <item>4x6 (203 dpi)</item>
+        <item>4x6 (300 dpi)</item>
+        <item>4x6.25 (203 dpi)</item>
+        <item>4x6.25 (300 dpi)</item>
+        <item>6x4 (203 dpi)</item>
+        <item>6x4 (300 dpi)</item>
+    </string-array>
+    <string-array name="DPIDisplay">
+        <item>203 dpi</item>
+        <item>300 dpi</item>
+        <item>600 dpi</item>
+    </string-array>
+    <string-array name="DPIValues">
+        <item>203.2</item>
+        <item>304.8</item>
+        <item>609.6</item>
+    </string-array>
+    <string-array
+        name="genders">
+        <item>@string/gender_neutral</item>
+        <item>@string/gender_male</item>
+        <item>@string/gender_female</item>
+    </string-array>
+    
+    <string-array
+        name="generos">
+        <item id ='01'>@string/gender_male</item>
+        <item id ='02'>@string/gender_female</item>
+    </string-array>
+    
+
+    <string-array 
+        name="tipos_patentes">
+        <item>Nacional</item>
+        <item>Internacional</item>
+    </string-array>
+    
+    <string-array
+        name="colores">
+        	<item id="1">Amaranto</item>
+			<item id="2">Amarillo</item>
+			<item id="3">Ámbar</item>
+			<item id="4">Albaricoque</item>
+			<item id="5">Aguamarina</item>
+			<item id="6">Amatista</item>
+			<item id="7">Añil</item>
+			<item id="8">Argén</item>
+			<item id="9">Azul</item>
+			<item id="10">Azul cobalto</item>
+			<item id="11">Azul marino</item>
+			<item id="12">Azur</item>
+			<item id="13">Azur heraldico</item>
+			<item id="14">Beige</item>
+			<item id="15">Bermellón</item>
+			<item id="16">Blanco</item>
+			<item id="17">Caqui</item>
+			<item id="18">Carmesí</item>
+			<item id="19">Carmín</item>
+			<item id="20">Carnación</item>
+			<item id="21">Celeste</item>
+			<item id="22">Cerúleo</item>
+			<item id="23">Chartreuse</item>
+			<item id="24">Cian</item>
+			<item id="25">Crema</item>
+			<item id="26">Cobre</item>
+			<item id="27">Cobre Pálido</item>
+			<item id="28">Coral</item>
+			<item id="29">Escarlata</item>
+			<item id="30">Esmeralda</item>
+			<item id="31">Espárrago</item>
+			<item id="32">Fucsia</item>
+			<item id="33">Granate</item>
+			<item id="34">Gris</item>
+			<item id="35">Jade</item>
+			<item id="36">Jengibre</item>
+			<item id="37">Lavanda</item>
+			<item id="38">Lavanda floral</item>
+			<item id="39">Lila</item>
+			<item id="40">Limón</item>
+			<item id="41">Lino</item>
+			<item id="42">Magenta</item>
+			<item id="43">Malva</item>
+			<item id="44">Marrón</item>
+			<item id="45">Morado</item>
+			<item id="46">Naranja</item>
+			<item id="47">Negro</item>
+			<item id="48">Nieve</item>
+			<item id="49">Ocre</item>
+			<item id="50">Oro</item>
+			<item id="51">Pardo</item>
+			<item id="52">Plateado</item>
+			<item id="53">Azul de Prusia</item>
+			<item id="54">Púrpura</item>
+			<item id="55">Rojo</item>
+			<item id="56">Rosa</item>
+			<item id="57">Sesamo</item>
+			<item id="58">Trigo</item>
+			<item id="59">Turquesa</item>
+			<item id="60">Turquí</item>
+			<item id="61">Verde</item>
+			<item id="62">Violeta</item>
+			<item id="63">Zafiro</item>
+    </string-array>
+    <string-array
+        name="marcas">
+        	<item id = "1">Acura</item>
+			<item id = "2">Alfaromeo</item>
+			<item id = "3">AMX</item>
+			<item id = "4">Aro</item>
+			<item id = "5">Audi</item>
+			<item id = "6">Autobuses</item>
+			<item id = "7">BMW</item>
+			<item id = "8">Buick</item>
+			<item id = "9">Cadillac</item>
+			<item id = "10">Camiones</item>
+			<item id = "11">Chevrolet</item>
+			<item id = "12">Chrysler</item>
+			<item id = "13">Corvette</item>
+			<item id = "14">Daewoo</item>
+			<item id = "15">Daihatsu</item>
+			<item id = "16">Ferrari</item>
+			<item id = "17">Fiat</item>
+			<item id = "18">Ford</item>
+			<item id = "19">Geo</item>
+			<item id = "20">Grua</item>
+			<item id = "21">Honda</item>
+			<item id = "22">Hyundai</item>
+			<item id = "23">Isuzu</item>
+			<item id = "24">Jaguard</item>
+			<item id = "25">Jeep</item>
+			<item id = "26">Kia</item>
+			<item id = "27">Lada</item>
+			<item id = "28">Lancia</item>
+			<item id = "29">Land Rover</item>
+			<item id = "30">Lexus</item>
+			<item id = "31">Lincoln</item>
+			<item id = "32">Maserati</item>
+			<item id = "33">Mazda</item>
+			<item id = "34">Mercedes</item>
+			<item id = "35">Mercury</item>
+			<item id = "36">Mini Cord</item>
+			<item id = "37">Mitsubishi</item>
+			<item id = "38">Nissan</item>
+			<item id = "39">Oldsmobile</item>
+			<item id = "40">Peugeot</item>
+			<item id = "41">Plymouth</item>
+			<item id = "42">Pontiac</item>
+			<item id = "43">Porsche</item>
+			<item id = "44">Renault</item>
+			<item id = "45">Rolls Royce</item>
+			<item id = "46">Skpoda</item>
+			<item id = "47">Seat</item>
+			<item id = "48">Subaru</item>
+			<item id = "49">Suzuki</item>
+			<item id = "50">Taxis</item>
+			<item id = "51">Toyota</item>
+			<item id = "52">Volkswagen</item>
+			<item id = "53">Volvo</item>
+			<item id = "54">Dodge</item>
+			<item id = "55">Diamond T</item>
+			<item id = "56">Citroen</item>
+			<item id = "57">Motomel</item>
+			<item id = "58">Guerrero</item>
+			<item id = "59">Cerro</item>
+			<item id = "60">Appia</item>
+			<item id = "61">Yamaha</item>
+			<item id = "62">Gilera</item>
+			<item id = "63">Zanella</item>
+			<item id = "64">Garelli</item>
+			<item id = "65">Kymco</item>
+			<item id = "66">Husqvarna</item>
+			<item id = "67">Mondial</item>
+			<item id = "68">Ducatti</item>
+			<item id = "69">Brava</item>
+			<item id = "70">Daelim</item>
+			<item id = "71">Grosspal</item>
+			<item id = "72">Scania</item>
+			<item id = "73">Iveco</item>
+			<item id = "74">Rastrojero</item>
+			<item id = "75">Dodge</item>
+			<item id = "76">Imsa</item>
+    </string-array>
+    
+    
+    <string-array
+        name="tipos_ruta">
+        <item id = "1" >@string/tiporuta_nacional</item>
+        <item id= "2" >@string/tiporuta_provincial</item>
+    </string-array>
+       
+    <string-array
+        name="rutas_nacionales">
+       	<item id="4">7</item>
+		<item id="5">8</item>
+		<item id="6">9</item>
+		<item id="13">19</item>
+		<item id="14">20</item>
+		<item id="15">35</item>
+		<item id="16">36</item>
+		<item id="17">38</item>
+		<item id="18">60</item>
+		<item id="20">148</item>
+		<item id="21">158</item>
+		<item id="22">1V09</item>
+		<item id="31">A019</item>
+    </string-array>
+    <string-array
+        name="rutas_provinciales">
+		<item id="1">1</item>
+		<item id="2">5</item>
+		<item id="3">6</item>
+		<item id="7">10</item>
+		<item id="8">11</item>
+		<item id="9">13</item>
+		<item id="10">14</item>
+		<item id="11">15</item>
+		<item id="12">17</item>
+		<item id="19">E-88</item>
+		<item id="23">A-156</item>
+		<item id="24">A-73</item>
+		<item id="25">C45</item>
+		<item id="26">E-34</item>
+		<item id="27">2</item>
+		<item id="28">E-53</item>
+		<item id="29">E-55</item>
+		<item id="30">E-57</item>
+		<item id="32">3</item>
+		<item id="33">21</item>
+		<item id="34">S-253</item>
+		<item id="35">16</item>
+		<item id="36">30</item>
+		<item id="37">4</item>
+		<item id="38">A-196</item>
+		<item id="39">12</item>
+    </string-array>
+    
+</resources>

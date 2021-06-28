@@ -1,0 +1,41 @@
+<android.support.v4.app.FragmentTabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mi_tabhost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentLeft="true"
+    android:layout_centerVertical="true" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </TabWidget>
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            
+<!--             <fragment android:name="ar.gov.mendoza.deviceactas.screens.verificaciones.fragments.VerificacionPersona" -->
+<!--                 android:id="@+id/tab1" -->
+<!--                 android:layout_width="match_parent" -->
+<!--                 android:layout_height="match_parent"/> -->
+            
+<!--             <fragment android:name="ar.gov.mendoza.deviceactas.screens.verificaciones.fragments.VerificacionAutomotor" -->
+<!--                 android:id="@+id/tab2" -->
+<!--                 android:layout_width="match_parent" -->
+<!--                 android:layout_height="match_parent"/> -->
+            
+<!--             <fragment android:name="ar.gov.mendoza.deviceactas.screens.verificaciones.fragments.VerificacionMotoVehiculo" -->
+<!--                 android:id="@+id/tab3" -->
+<!--                 android:layout_width="match_parent" -->
+<!--                 android:layout_height="match_parent"/> -->
+       </FrameLayout>
+    </LinearLayout>
+</android.support.v4.app.FragmentTabHost>

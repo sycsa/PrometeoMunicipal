@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name ="ColorPnlRuta">#ffffC0</color>
+    <color name ="ColorPnlInfraccion">#fdf5e6</color>
+    <color name ="ColorPnlReferencia">#ffffC0</color>
+    <color name ="ColorPnlJuzgado">#add8e6</color>
+    <color name ="ColorPnlTitularVehiculo">#add8e6</color>
+    <color name ="ColorPnlConductor">#ffffC0</color>
+    <color name ="ColorPnlLicencia">#fdf5e6</color>
+    <color name ="ColorPnlTestigoVehiculo">#add8e6</color>
+    <color name ="ColorPnlFotos">#fdf5e6</color>
+    
+    
+    
+    <color name="Black">#ff000000</color>
+    <color name="Grey">#ffbbbbbb</color>
+    <color name="LightBlue">#ff4488ff</color>
+    <color name="endLightBlue">#ff4899ff</color>
+    <color name="LightGrey">#ffd3d3d3</color>
+    <color name="White">#ffffffff</color>
+    <color name="DarkGrey">#ff808080</color>
+    <color name="activated_color">#E8E8E8</color>
+
+    <!-- <color name="Mendoza_Color">#5F2571</color> testing #990066 produccion #5F2571-->
+    <color name="SYCSA_Color">#935793</color>
+    
+    <!-- A dark Holo shade of orange -->
+    <color name="deviceactas_orange_dark">#ffff8800</color>
+     <!-- A light Holo shade of green -->
+    <color name="deviceactas_green_light">#ff99cc00</color>
+
+    <color
+        name="logo_color">#FFFF0F</color>
+    <color
+        name="version_color">#f0f0f0</color>
+    <color
+        name="version_bkgrd">#1a1a48</color>
+    <color
+        name="title_color">#f0f0f0</color>
+    <color
+        name="title_glow">#F00</color>
+    <color
+        name="menu_color">#FFFF0F</color>
+    <color
+        name="menu_glow">#F00</color>
+    <color
+        name="error_color">#F00</color>
+    
+     <color name="bluee">#60CEFD</color>
+     <color name="blue">#00f</color>
+     <color name="red">#f00</color>
+     <color name="normal_text_color">#000</color>
+     
+       <color name="contents_text">#ff000000</color>
+  <color name="encode_view">#ffffffff</color>
+  <color name="possible_result_points">#c0ffbd21</color> <!-- Android standard ICS color -->
+  <color name="result_minor_text">#ffc0c0c0</color>
+  <color name="result_points">#c099cc00</color> <!-- Android standard ICS color -->
+  <color name="result_text">#ffffffff</color>
+  <color name="result_view">#b0000000</color>
+  <color name="status_text">#ffffffff</color>
+  <!--color name="transparent">#00000000</color-->
+  <color name="viewfinder_laser">#ffcc0000</color> <!-- Android standard ICS color -->
+  <color name="viewfinder_mask">#60000000</color>
+     
+</resources>

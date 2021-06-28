@@ -1,0 +1,79 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "ar.gov.mendoza.PrometeoMuni"
+        minSdkVersion 21
+        targetSdkVersion 26
+        versionCode 2
+        versionName "2.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        packagingOptions {
+            exclude 'META-INF/DEPENDENCIES'
+            exclude 'META-INF/NOTICE'
+            exclude 'META-INF/LICENSE'
+            exclude 'META-INF/LICENSE.txt'
+            exclude 'META-INF/NOTICE.txt'
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:26.0.1'
+
+    implementation 'com.android.support:support-v4:26.0.1'
+
+    // https://mvnrepository.com/artifact/org.apache.james/apache-mime4j
+    //compile group: 'org.apache.james', name: 'apache-mime4j', version: '0.6.1'
+    implementation 'org.apache.james:apache-mime4j:0.6.1'
+    // https://mvnrepository.com/artifact/com.readystatesoftware.sqliteasset/sqliteassethelper
+   // compile group: 'com.readystatesoftware.sqliteasset', name: 'sqliteassethelper', version: '2.0.1'
+    implementation 'com.readystatesoftware.sqliteasset:sqliteassethelper:2.0.1'
+    // https://mvnrepository.com/artifact/commons-io/commons-io
+    //compile group: 'commons-io', name: 'commons-io', version: '1.4'
+    implementation 'commons-io:commons-io:1.4'
+    // https://mvnrepository.com/artifact/org.apache.httpcomponents/httpmime
+    //compile group: 'org.apache.httpcomponents', name: 'httpmime', version: '4.3.1'
+    implementation 'org.apache.httpcomponents:httpmime:4.3.1'
+    // https://mvnrepository.com/artifact/org.simpleframework/simple-xml
+    //compile group: 'org.simpleframework', name: 'simple-xml', version: '2.7.1'
+    //implementation 'org.simpleframework:simple-xml:2.7.1'
+
+    // https://mvnrepository.com/artifact/com.google.code.gson/gson
+    //compile group: 'com.google.code.gson', name: 'gson', version: '2.2.2'
+    implementation 'com.google.code.gson:gson:2.2.2'
+
+    implementation 'com.android.support:support-annotations:28.0.0'
+
+
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+    /*
+    implementation files('libs/microblink.jar')
+    implementation files('libs/classes-microblink.jar')
+    implementation files('libs/android-sqlite-asset-helper.jar')
+    implementation files('libs/apache-mime4j-0.6.jar')
+    implementation files('libs/commons-io-1.4.jar')
+    implementation files('libs/httpmime-4.3.1.jar')
+    implementation files('libs/ksoap2-android-assembly-2.5.8-jar.jar')
+    implementation files('libs/netcipher-1.2.1.jar')
+    implementation files('libs/simple-xml-2.7.1.jar')
+    implementation files('libs/ZSDK_ANDROID_API.jar')
+
+    implementation files('libs/gson-2.2.2.jar')
+    */
+    //implementation files('libs/android-support-v7-appcompat.jar')
+    //implementation files('libs/ .jar')
+
+}

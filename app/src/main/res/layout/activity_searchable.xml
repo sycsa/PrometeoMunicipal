@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <!-- Datos del Patron de Busqueda -->
+    <TextView  
+		        android:id="@+id/TextView_PatronBusqueda"  
+		        android:layout_width="match_parent"  
+		        android:layout_height="wrap_content"  
+		        android:textSize="15sp"  
+		        android:background="#FFFFE0"  
+		        android:text="@string/searchable_items_sinvalor"
+		        android:padding="10dp"  
+     />
+
+    <ListView
+		android:id="@android:id/android:list"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+ />
+
+</LinearLayout>

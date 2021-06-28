@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content" 
+  android:id="@+id/TheSplashLayout"
+  android:layout_gravity="center"
+  android:orientation="vertical"
+  >
+    <ImageView 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:id="@+id/SplashImageView"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"        
+        >
+    </ImageView>
+    <TextView 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"       
+        android:id="@+id/TextView_Intro"
+        android:text="Cargando Base de Datos..."
+        android:layout_gravity="center"
+        android:textColor="@color/Black"
+        android:visibility="visible"
+        />
+     <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminate="true" 
+        android:layout_gravity="center"
+           />
+     
+    <!-- android:src="@drawable/splash4" -->
+</LinearLayout>

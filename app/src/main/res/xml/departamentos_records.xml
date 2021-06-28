@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="utf-8"?>
+<departamentos>
+    <record id="101" name ="ANTA" idprovincia ="A" />
+	<record id="102" name ="CACHI" idprovincia ="A" />
+	<record id="103" name ="CAFAYATE" idprovincia ="A" />
+	<record id="104" name ="CAPITAL" idprovincia ="A" />
+	<record id="105" name ="CERRILLOS" idprovincia ="A" />
+	<record id="106" name ="CHICOANA" idprovincia ="A" />
+	<record id="107" name ="GENERAL JOSE DE SAN MARTIN" idprovincia ="A" />
+	<record id="108" name ="GENERAL MARTIN M GUEMES" idprovincia ="A" />
+	<record id="109" name ="GUACHIPAS" idprovincia ="A" />
+	<record id="110" name ="IRUYA" idprovincia ="A" />
+	<record id="111" name ="LA CALDERA" idprovincia ="A" />
+	<record id="112" name ="LA CANDELARIA" idprovincia ="A" />
+	<record id="113" name ="LA POMA" idprovincia ="A" />
+	<record id="114" name ="LA VIÑA" idprovincia ="A" />
+	<record id="115" name ="LOS ANDES" idprovincia ="A" />
+	<record id="116" name ="METAN" idprovincia ="A" />
+	<record id="117" name ="MOLINOS" idprovincia ="A" />
+	<record id="118" name ="ORAN" idprovincia ="A" />
+	<record id="119" name ="RIVADAVIA" idprovincia ="A" />
+	<record id="120" name ="ROSARIO DE LA FRONTERA" idprovincia ="A" />
+	<record id="121" name ="ROSARIO DE LERMA" idprovincia ="A" />
+	<record id="122" name ="SAN CARLOS" idprovincia ="A" />
+	<record id="123" name ="SANTA VICTORIA" idprovincia ="A" />
+	<record id="124" name ="25 DE MAYO" idprovincia ="B" />
+	<record id="125" name ="9 DE JULIO" idprovincia ="B" />
+	<record id="126" name ="ADOLFO ALSINA" idprovincia ="B" />
+	<record id="127" name ="ADOLFO GONZALES CHAVES" idprovincia ="B" />
+	<record id="128" name ="ALBERTI" idprovincia ="B" />
+	<record id="129" name ="ALMIRANTE BROWN" idprovincia ="B" />
+	<record id="130" name ="AVELLANEDA" idprovincia ="B" />
+	<record id="131" name ="AYACUCHO" idprovincia ="B" />
+	<record id="132" name ="AZUL" idprovincia ="B" />
+	<record id="133" name ="BAHIA BLANCA" idprovincia ="B" />
+	<record id="134" name ="BALCARCE" idprovincia ="B" />
+	<record id="135" name ="BARADERO" idprovincia ="B" />
+	<record id="136" name ="BARTOLOME MITRE" idprovincia ="B" />
+	<record id="137" name ="BENITO JUAREZ" idprovincia ="B" />
+	<record id="138" name ="BERAZATEGUI" idprovincia ="B" />
+	<record id="139" name ="BERISSO" idprovincia ="B" />
+	<record id="140" name ="BOLIVAR" idprovincia ="B" />
+	<record id="141" name ="BRAGADO" idprovincia ="B" />
+	<record id="142" name ="CAMPANA" idprovincia ="B" />
+	<record id="143" name ="CAPITAN SARMIENTO" idprovincia ="B" />
+	<record id="144" name ="CARLOS CASARES" idprovincia ="B" />
+	<record id="145" name ="CARLOS TEJEDOR" idprovincia ="B" />
+	<record id="146" name ="CARMEN DE ARECO" idprovincia ="B" />
+	<record id="147" name ="CASTELLI" idprovincia ="B" />
+	<record id="148" name ="CAÑUELAS" idprovincia ="B" />
+	<record id="149" name ="CHACABUCO" idprovincia ="B" />
+	<record id="150" name ="CHASCOMUS" idprovincia ="B" />
+	<record id="151" name ="CHIVILCOY" idprovincia ="B" />
+	<record id="152" name ="COLON" idprovincia ="B" />
+	<record id="153" name ="CORONEL BRANDSEN" idprovincia ="B" />
+	<record id="154" name ="CORONEL DORREGO" idprovincia ="B" />
+	<record id="155" name ="CORONEL PRINGLES" idprovincia ="B" />
+	<record id="156" name ="CORONEL ROSALES" idprovincia ="B" />
+	<record id="157" name ="CORONEL SUAREZ" idprovincia ="B" />
+	<record id="158" name ="DAIREAUX" idprovincia ="B" />
+	<record id="159" name ="DE LA COSTA" idprovincia ="B" />
+	<record id="160" name ="DOLORES" idprovincia ="B" />
+	<record id="161" name ="ENSENADA" idprovincia ="B" />
+	<record id="162" name ="ESCOBAR" idprovincia ="B" />
+	<record id="163" name ="ESTEBAN ECHEVERRIA" idprovincia ="B" />
+	<record id="164" name ="EXALTACION DE LA CRUZ" idprovincia ="B" />
+	<record id="165" name ="EZEIZA" idprovincia ="B" />
+	<record id="166" name ="FLORENCIO VARELA" idprovincia ="B" />
+	<record id="167" name ="FLORENTINO AMEGHINO" idprovincia ="B" />
+	<record id="168" name ="GENERAL ALVARADO" idprovincia ="B" />
+	<record id="169" name ="GENERAL ALVEAR" idprovincia ="B" />
+	<record id="170" name ="GENERAL ARENALES" idprovincia ="B" />
+	<record id="171" name ="GENERAL BELGRANO" idprovincia ="B" />
+	<record id="172" name ="GENERAL GUIDO" idprovincia ="B" />
+	<record id="173" name ="GENERAL LAMADRID" idprovincia ="B" />
+	<record id="174" name ="GENERAL LAS HERAS" idprovincia ="B" />
+	<record id="175" name ="GENERAL LAVALLE" idprovincia ="B" />
+	<record id="176" name ="GENERAL MADARIAGA" idprovincia ="B" />
+	<record id="177" name ="GENERAL PAZ" idprovincia ="B" />
+	<record id="178" name ="GENERAL PINTO" idprovincia ="B" />
+	<record id="179" name ="GENERAL PUEYRREDON" idprovincia ="B" />
+	<record id="180" name ="GENERAL RODRIGUEZ" idprovincia ="B" />
+	<record id="181" name ="GENERAL SAN MARTIN" idprovincia ="B" />
+	<record id="182" name ="GENERAL VIAMONTE" idprovincia ="B" />
+	<record id="183" name ="GENERAL VILLEGAS" idprovincia ="B" />
+	<record id="184" name ="GUAMINI" idprovincia ="B" />
+	<record id="185" name ="HIPOLITO YRIGOYEN" idprovincia ="B" />
+	<record id="186" name ="HURLINGHAM" idprovincia ="B" />
+	<record id="187" name ="ITUZAINGO" idprovincia ="B" />
+	<record id="188" name ="JOSE CLEMENTE PAZ" idprovincia ="B" />
+	<record id="189" name ="JUNIN" idprovincia ="B" />
+	<record id="190" name ="LA MATANZA" idprovincia ="B" />
+	<record id="191" name ="LA PLATA" idprovincia ="B" />
+	<record id="192" name ="LANUS" idprovincia ="B" />
+	<record id="193" name ="LAPRIDA" idprovincia ="B" />
+	<record id="194" name ="LAS FLORES" idprovincia ="B" />
+	<record id="195" name ="LEANDRO N  ALEM" idprovincia ="B" />
+	<record id="196" name ="LINCOLN" idprovincia ="B" />
+	<record id="197" name ="LOBERIA" idprovincia ="B" />
+	<record id="198" name ="LOBOS" idprovincia ="B" />
+	<record id="199" name ="LOMAS DE ZAMORA" idprovincia ="B" />
+	<record id="200" name ="LUJAN" idprovincia ="B" />
+	<record id="201" name ="MAGDALENA" idprovincia ="B" />
+	<record id="202" name ="MAIPU" idprovincia ="B" />
+	<record id="203" name ="MALVINAS ARGENTINAS" idprovincia ="B" />
+	<record id="204" name ="MAR CHIQUITA" idprovincia ="B" />
+	<record id="205" name ="MARCOS PAZ" idprovincia ="B" />
+	<record id="206" name ="MERCEDES" idprovincia ="B" />
+	<record id="207" name ="MERLO" idprovincia ="B" />
+	<record id="208" name ="MONTE" idprovincia ="B" />
+	<record id="209" name ="MONTE HERMOSO" idprovincia ="B" />
+	<record id="210" name ="MORENO" idprovincia ="B" />
+	<record id="211" name ="MORON" idprovincia ="B" />
+	<record id="212" name ="NAVARRO" idprovincia ="B" />
+	<record id="213" name ="NECOCHEA" idprovincia ="B" />
+	<record id="214" name ="OLAVARRIA" idprovincia ="B" />
+	<record id="215" name ="PATAGONES" idprovincia ="B" />
+	<record id="216" name ="PEHUAJO" idprovincia ="B" />
+	<record id="217" name ="PELLEGRINI" idprovincia ="B" />
+	<record id="218" name ="PERGAMINO" idprovincia ="B" />
+	<record id="219" name ="PILA" idprovincia ="B" />
+	<record id="220" name ="PILAR" idprovincia ="B" />
+	<record id="221" name ="PINAMAR" idprovincia ="B" />
+	<record id="222" name ="PRESIDENTE PERON" idprovincia ="B" />
+	<record id="223" name ="PUAN" idprovincia ="B" />
+	<record id="224" name ="PUNTA INDIO" idprovincia ="B" />
+	<record id="225" name ="QUILMES" idprovincia ="B" />
+	<record id="226" name ="RAMALLO" idprovincia ="B" />
+	<record id="227" name ="RAUCH" idprovincia ="B" />
+	<record id="228" name ="RIVADAVIA" idprovincia ="B" />
+	<record id="229" name ="ROJAS" idprovincia ="B" />
+	<record id="230" name ="ROQUE PEREZ" idprovincia ="B" />
+	<record id="231" name ="SAAVEDRA" idprovincia ="B" />
+	<record id="232" name ="SALADILLO" idprovincia ="B" />
+	<record id="233" name ="SALLIQUELO" idprovincia ="B" />
+	<record id="234" name ="SALTO" idprovincia ="B" />
+	<record id="235" name ="SAN ANDRES DE GILES" idprovincia ="B" />
+	<record id="236" name ="SAN ANTONIO DE ARECO" idprovincia ="B" />
+	<record id="237" name ="SAN CAYETANO" idprovincia ="B" />
+	<record id="238" name ="SAN FERNANDO" idprovincia ="B" />
+	<record id="239" name ="SAN ISIDRO" idprovincia ="B" />
+	<record id="240" name ="SAN MIGUEL" idprovincia ="B" />
+	<record id="241" name ="SAN NICOLAS" idprovincia ="B" />
+	<record id="242" name ="SAN PEDRO" idprovincia ="B" />
+	<record id="243" name ="SAN VICENTE" idprovincia ="B" />
+	<record id="244" name ="SUIPACHA" idprovincia ="B" />
+	<record id="245" name ="TANDIL" idprovincia ="B" />
+	<record id="246" name ="TAPALQUE" idprovincia ="B" />
+	<record id="247" name ="TIGRE" idprovincia ="B" />
+	<record id="248" name ="TORDILLO" idprovincia ="B" />
+	<record id="249" name ="TORNQUIST" idprovincia ="B" />
+	<record id="250" name ="TRENQUE LAUQUEN" idprovincia ="B" />
+	<record id="251" name ="TRES ARROYOS" idprovincia ="B" />
+	<record id="252" name ="TRES DE FEBRERO" idprovincia ="B" />
+	<record id="253" name ="TRES LOMAS" idprovincia ="B" />
+	<record id="254" name ="VICENTE LOPEZ" idprovincia ="B" />
+	<record id="255" name ="VILLA GESELL" idprovincia ="B" />
+	<record id="256" name ="VILLARINO" idprovincia ="B" />
+	<record id="257" name ="ZARATE" idprovincia ="B" />
+	<record id="258" name ="CAPITAL FEDERAL" idprovincia ="C" />
+	<record id="259" name ="AYACUCHO" idprovincia ="D" />
+	<record id="260" name ="BELGRANO" idprovincia ="D" />
+	<record id="261" name ="CHACABUCO" idprovincia ="D" />
+	<record id="262" name ="CORONEL PRINGLES" idprovincia ="D" />
+	<record id="263" name ="GENERAL PEDERNERA" idprovincia ="D" />
+	<record id="264" name ="GOBERNADOR DUPUY" idprovincia ="D" />
+	<record id="265" name ="JUNIN" idprovincia ="D" />
+	<record id="266" name ="LA CAPITAL" idprovincia ="D" />
+	<record id="267" name ="LIBERTADOR GRAL SAN MARTIN" idprovincia ="D" />
+	<record id="268" name ="COLON" idprovincia ="E" />
+	<record id="269" name ="CONCORDIA" idprovincia ="E" />
+	<record id="270" name ="DIAMANTE" idprovincia ="E" />
+	<record id="271" name ="FEDERACION" idprovincia ="E" />
+	<record id="272" name ="FEDERAL" idprovincia ="E" />
+	<record id="273" name ="FELICIANO" idprovincia ="E" />
+	<record id="274" name ="GUALEGUAY" idprovincia ="E" />
+	<record id="275" name ="GUALEGUAYCHU" idprovincia ="E" />
+	<record id="276" name ="ISLAS DEL IBICUY" idprovincia ="E" />
+	<record id="277" name ="LA PAZ" idprovincia ="E" />
+	<record id="278" name ="NOGOYA" idprovincia ="E" />
+	<record id="279" name ="PARANA" idprovincia ="E" />
+	<record id="280" name ="TALA" idprovincia ="E" />
+	<record id="281" name ="URUGUAY" idprovincia ="E" />
+	<record id="282" name ="VICTORIA" idprovincia ="E" />
+	<record id="283" name ="VILLAGUAY" idprovincia ="E" />
+	<record id="284" name ="ARAUCO" idprovincia ="F" />
+	<record id="285" name ="CAPITAL" idprovincia ="F" />
+	<record id="286" name ="CASTRO BARROS" idprovincia ="F" />
+	<record id="287" name ="CHAMICAL" idprovincia ="F" />
+	<record id="288" name ="CHILECITO" idprovincia ="F" />
+	<record id="289" name ="CORONEL FELIPE VARELA" idprovincia ="F" />
+	<record id="290" name ="FAMATINA" idprovincia ="F" />
+	<record id="291" name ="GENERAL ANGEL VICENTE PEÑALOZA" idprovincia ="F" />
+	<record id="292" name ="GENERAL BELGRANO" idprovincia ="F" />
+	<record id="293" name ="GENERAL JUAN FACUNDO QUIROGA" idprovincia ="F" />
+	<record id="294" name ="GENERAL LAMADRID" idprovincia ="F" />
+	<record id="295" name ="GENERAL OCAMPO" idprovincia ="F" />
+	<record id="296" name ="GENERAL SAN MARTIN" idprovincia ="F" />
+	<record id="297" name ="GENERAL SARMIENTO" idprovincia ="F" />
+	<record id="298" name ="GOBERNADOR GORDILLO" idprovincia ="F" />
+	<record id="299" name ="INDEPENDENCIA" idprovincia ="F" />
+	<record id="300" name ="ROSARIO VERA PEÑALOZA" idprovincia ="F" />
+	<record id="301" name ="SAN BLAS DE LOS SAUCES" idprovincia ="F" />
+	<record id="302" name ="SANAGASTA" idprovincia ="F" />
+	<record id="303" name ="VINCHINA" idprovincia ="F" />
+	<record id="304" name ="AGUIRRE" idprovincia ="G" />
+	<record id="305" name ="ALBERDI" idprovincia ="G" />
+	<record id="306" name ="ATAMISQUI" idprovincia ="G" />
+	<record id="307" name ="AVELLANEDA" idprovincia ="G" />
+	<record id="308" name ="BANDA" idprovincia ="G" />
+	<record id="309" name ="BELGRANO" idprovincia ="G" />
+	<record id="310" name ="BRIGADIER JUAN F IBARRA" idprovincia ="G" />
+	<record id="311" name ="CAPITAL" idprovincia ="G" />
+	<record id="312" name ="CHOYA" idprovincia ="G" />
+	<record id="313" name ="COPO" idprovincia ="G" />
+	<record id="314" name ="FIGUEROA" idprovincia ="G" />
+	<record id="315" name ="GENERAL SAN MARTIN" idprovincia ="G" />
+	<record id="316" name ="GENERAL TABOADA" idprovincia ="G" />
+	<record id="317" name ="GUASAYAN" idprovincia ="G" />
+	<record id="318" name ="JIMENEZ" idprovincia ="G" />
+	<record id="319" name ="LORETO" idprovincia ="G" />
+	<record id="320" name ="MITRE" idprovincia ="G" />
+	<record id="321" name ="MORENO" idprovincia ="G" />
+	<record id="322" name ="OJO DE AGUA" idprovincia ="G" />
+	<record id="323" name ="PELLEGRINI" idprovincia ="G" />
+	<record id="324" name ="QUEBRACHOS" idprovincia ="G" />
+	<record id="325" name ="RIO HONDO" idprovincia ="G" />
+	<record id="326" name ="RIVADAVIA" idprovincia ="G" />
+	<record id="327" name ="ROBLES" idprovincia ="G" />
+	<record id="328" name ="SALAVINA" idprovincia ="G" />
+	<record id="329" name ="SARMIENTO" idprovincia ="G" />
+	<record id="330" name ="SILIPICA" idprovincia ="G" />
+	<record id="331" name ="1 DE MAYO" idprovincia ="H" />
+	<record id="332" name ="12 DE OCTUBRE" idprovincia ="H" />
+	<record id="333" name ="25 DE MAYO" idprovincia ="H" />
+	<record id="334" name ="9 DE JULIO" idprovincia ="H" />
+	<record id="335" name ="ALMIRANTE BROWN" idprovincia ="H" />
+	<record id="336" name ="BERMEJO" idprovincia ="H" />
+	<record id="337" name ="CHACABUCO" idprovincia ="H" />
+	<record id="338" name ="COMANDANTE FERNANDEZ" idprovincia ="H" />
+	<record id="339" name ="FRAY JUSTO SANTA MARIA DE ORO" idprovincia ="H" />
+	<record id="340" name ="GENERAL BELGRANO" idprovincia ="H" />
+	<record id="341" name ="GENERAL DONOVAN" idprovincia ="H" />
+	<record id="342" name ="GENERAL GUEMES" idprovincia ="H" />
+	<record id="343" name ="INDEPENDENCIA" idprovincia ="H" />
+	<record id="344" name ="LIBERTAD" idprovincia ="H" />
+	<record id="345" name ="LIBERTADOR GRAL SAN MARTIN" idprovincia ="H" />
+	<record id="346" name ="MAIPU" idprovincia ="H" />
+	<record id="347" name ="MAYOR LUIS J FONTANA" idprovincia ="H" />
+	<record id="348" name ="O HIGGINS" idprovincia ="H" />
+	<record id="349" name ="PRESIDENTE DE LA PLAZA" idprovincia ="H" />
+	<record id="350" name ="QUITILIPI" idprovincia ="H" />
+	<record id="351" name ="SAN FERNANDO" idprovincia ="H" />
+	<record id="352" name ="SAN LORENZO" idprovincia ="H" />
+	<record id="353" name ="SARGENTO CABRAL" idprovincia ="H" />
+	<record id="354" name ="TAPENAGA" idprovincia ="H" />
+	<record id="355" name ="25 DE MAYO" idprovincia ="J" />
+	<record id="356" name ="9 DE JULIO" idprovincia ="J" />
+	<record id="357" name ="ALBARDON" idprovincia ="J" />
+	<record id="358" name ="ANGACO" idprovincia ="J" />
+	<record id="359" name ="CALINGASTA" idprovincia ="J" />
+	<record id="360" name ="CAPITAL" idprovincia ="J" />
+	<record id="361" name ="CAUCETE" idprovincia ="J" />
+	<record id="362" name ="CHIMBAS" idprovincia ="J" />
+	<record id="363" name ="IGLESIA" idprovincia ="J" />
+	<record id="364" name ="JACHAL" idprovincia ="J" />
+	<record id="365" name ="POCITO" idprovincia ="J" />
+	<record id="366" name ="RAWSON" idprovincia ="J" />
+	<record id="367" name ="RIVADAVIA" idprovincia ="J" />
+	<record id="368" name ="SAN MARTIN" idprovincia ="J" />
+	<record id="369" name ="SANTA LUCIA" idprovincia ="J" />
+	<record id="370" name ="SARMIENTO" idprovincia ="J" />
+	<record id="371" name ="ULLUM" idprovincia ="J" />
+	<record id="372" name ="VALLE FERTIL" idprovincia ="J" />
+	<record id="373" name ="ZONDA" idprovincia ="J" />
+	<record id="374" name ="AMBATO" idprovincia ="K" />
+	<record id="375" name ="ANCASTI" idprovincia ="K" />
+	<record id="376" name ="ANDALGALA" idprovincia ="K" />
+	<record id="377" name ="ANTOFAGASTA DE LA SIERRA" idprovincia ="K" />
+	<record id="378" name ="BELEN" idprovincia ="K" />
+	<record id="379" name ="CAPAYAN" idprovincia ="K" />
+	<record id="380" name ="CAPITAL" idprovincia ="K" />
+	<record id="381" name ="EL ALTO" idprovincia ="K" />
+	<record id="382" name ="FRAY MAMERTO ESQUIU" idprovincia ="K" />
+	<record id="383" name ="LA PAZ" idprovincia ="K" />
+	<record id="384" name ="PACLIN" idprovincia ="K" />
+	<record id="385" name ="POMAN" idprovincia ="K" />
+	<record id="386" name ="SANTA MARIA" idprovincia ="K" />
+	<record id="387" name ="SANTA ROSA" idprovincia ="K" />
+	<record id="388" name ="TINOGASTA" idprovincia ="K" />
+	<record id="389" name ="VALLE VIEJO" idprovincia ="K" />
+	<record id="390" name ="ATREUCO" idprovincia ="L" />
+	<record id="391" name ="CALEU CALEU" idprovincia ="L" />
+	<record id="392" name ="CAPITAL" idprovincia ="L" />
+	<record id="393" name ="CATRILO" idprovincia ="L" />
+	<record id="394" name ="CHALILEO" idprovincia ="L" />
+	<record id="395" name ="CHAPALEUFU" idprovincia ="L" />
+	<record id="396" name ="CHICAL CO" idprovincia ="L" />
+	<record id="397" name ="CONESA" idprovincia ="L" />
+	<record id="398" name ="CONHELO" idprovincia ="L" />
+	<record id="399" name ="CURACO" idprovincia ="L" />
+	<record id="400" name ="GUATRACHE" idprovincia ="L" />
+	<record id="401" name ="HUCAL" idprovincia ="L" />
+	<record id="402" name ="LIHUEL CALEL" idprovincia ="L" />
+	<record id="403" name ="LIMAY MAHUIDA" idprovincia ="L" />
+	<record id="404" name ="LOVENTUE" idprovincia ="L" />
+	<record id="405" name ="MARACO" idprovincia ="L" />
+	<record id="406" name ="PUELEN" idprovincia ="L" />
+	<record id="407" name ="QUEMU QUEMU" idprovincia ="L" />
+	<record id="408" name ="RANCUL" idprovincia ="L" />
+	<record id="409" name ="REALICO" idprovincia ="L" />
+	<record id="410" name ="TOAY" idprovincia ="L" />
+	<record id="411" name ="TRENEL" idprovincia ="L" />
+	<record id="412" name ="UTRACAN" idprovincia ="L" />
+	<record id="413" name ="CAPITAL" idprovincia ="M" />
+	<record id="414" name ="GENERAL  ALVEAR" idprovincia ="M" />
+	<record id="415" name ="GODOY CRUZ" idprovincia ="M" />
+	<record id="416" name ="GUAYMALLEN" idprovincia ="M" />
+	<record id="417" name ="JUNIN" idprovincia ="M" />
+	<record id="418" name ="LA PAZ" idprovincia ="M" />
+	<record id="419" name ="LAS HERAS" idprovincia ="M" />
+	<record id="420" name ="LAVALLE" idprovincia ="M" />
+	<record id="421" name ="LUJAN DE CUYO" idprovincia ="M" />
+	<record id="422" name ="MAIPU" idprovincia ="M" />
+	<record id="423" name ="MALARGUE" idprovincia ="M" />
+	<record id="424" name ="RIVADAVIA" idprovincia ="M" />
+	<record id="425" name ="SAN CARLOS" idprovincia ="M" />
+	<record id="426" name ="SAN MARTIN" idprovincia ="M" />
+	<record id="427" name ="SAN RAFAEL" idprovincia ="M" />
+	<record id="428" name ="SANTA ROSA" idprovincia ="M" />
+	<record id="429" name ="TUNUYAN" idprovincia ="M" />
+	<record id="430" name ="TUPUNGATO" idprovincia ="M" />
+	<record id="431" name ="25 DE MAYO" idprovincia ="N" />
+	<record id="432" name ="APOSTOLES" idprovincia ="N" />
+	<record id="433" name ="CAINGUAS" idprovincia ="N" />
+	<record id="434" name ="CANDELARIA" idprovincia ="N" />
+	<record id="435" name ="CAPITAL" idprovincia ="N" />
+	<record id="436" name ="CONCEPCION" idprovincia ="N" />
+	<record id="437" name ="EL DORADO" idprovincia ="N" />
+	<record id="438" name ="GENERAL MANUEL BELGRANO" idprovincia ="N" />
+	<record id="439" name ="GUARANI" idprovincia ="N" />
+	<record id="440" name ="IGUAZU" idprovincia ="N" />
+	<record id="441" name ="LEANDRO N ALEM" idprovincia ="N" />
+	<record id="442" name ="LIBERTADOR GRAL SAN MARTIN" idprovincia ="N" />
+	<record id="443" name ="MONTECARLO" idprovincia ="N" />
+	<record id="444" name ="OBERA" idprovincia ="N" />
+	<record id="445" name ="SAN IGNACIO" idprovincia ="N" />
+	<record id="446" name ="SAN JAVIER" idprovincia ="N" />
+	<record id="447" name ="SAN PEDRO" idprovincia ="N" />
+	<record id="448" name ="BERMEJO" idprovincia ="P" />
+	<record id="449" name ="FORMOSA" idprovincia ="P" />
+	<record id="450" name ="LAISHI" idprovincia ="P" />
+	<record id="451" name ="MATACOS" idprovincia ="P" />
+	<record id="452" name ="PATIÑO" idprovincia ="P" />
+	<record id="453" name ="PILAGAS" idprovincia ="P" />
+	<record id="454" name ="PILCOMAYO" idprovincia ="P" />
+	<record id="455" name ="PIRANE" idprovincia ="P" />
+	<record id="456" name ="RAMON LISTA" idprovincia ="P" />
+	<record id="457" name ="ALUMINE" idprovincia ="Q" />
+	<record id="458" name ="AÑELO" idprovincia ="Q" />
+	<record id="459" name ="CATAN LIL" idprovincia ="Q" />
+	<record id="460" name ="CHOS MALAL" idprovincia ="Q" />
+	<record id="461" name ="COLLON CURA" idprovincia ="Q" />
+	<record id="462" name ="CONFLUENCIA" idprovincia ="Q" />
+	<record id="463" name ="HUILICHES" idprovincia ="Q" />
+	<record id="464" name ="LACAR" idprovincia ="Q" />
+	<record id="465" name ="LONCOPUE" idprovincia ="Q" />
+	<record id="466" name ="LOS LAGOS" idprovincia ="Q" />
+	<record id="467" name ="MINAS" idprovincia ="Q" />
+	<record id="468" name ="PEHUENCHES" idprovincia ="Q" />
+	<record id="469" name ="PICUN LEUFU" idprovincia ="Q" />
+	<record id="470" name ="PICUNCHES" idprovincia ="Q" />
+	<record id="471" name ="ZAPALA" idprovincia ="Q" />
+	<record id="472" name ="ÑORQUIN" idprovincia ="Q" />
+	<record id="473" name ="25 DE MAYO" idprovincia ="R" />
+	<record id="474" name ="9 DE JULIO" idprovincia ="R" />
+	<record id="475" name ="ADOLFO ALSINA" idprovincia ="R" />
+	<record id="476" name ="AVELLANEDA" idprovincia ="R" />
+	<record id="477" name ="BARILOCHE" idprovincia ="R" />
+	<record id="478" name ="CONESA" idprovincia ="R" />
+	<record id="479" name ="EL CUY" idprovincia ="R" />
+	<record id="480" name ="GENERAL ROCA" idprovincia ="R" />
+	<record id="481" name ="PICHI MAHUIDA" idprovincia ="R" />
+	<record id="482" name ="PILCANIYEU" idprovincia ="R" />
+	<record id="483" name ="SAN ANTONIO" idprovincia ="R" />
+	<record id="484" name ="VALCHETA" idprovincia ="R" />
+	<record id="485" name ="ÑORQUINCO" idprovincia ="R" />
+	<record id="486" name ="9 DE JULIO" idprovincia ="S" />
+	<record id="487" name ="BELGRANO" idprovincia ="S" />
+	<record id="488" name ="CASEROS" idprovincia ="S" />
+	<record id="489" name ="CASTELLANOS" idprovincia ="S" />
+	<record id="490" name ="CONSTITUCION" idprovincia ="S" />
+	<record id="491" name ="GARAY" idprovincia ="S" />
+	<record id="492" name ="GENERAL LOPEZ" idprovincia ="S" />
+	<record id="493" name ="GENERAL OBLIGADO" idprovincia ="S" />
+	<record id="494" name ="IRIONDO" idprovincia ="S" />
+	<record id="495" name ="LA CAPITAL" idprovincia ="S" />
+	<record id="496" name ="LAS COLONIAS" idprovincia ="S" />
+	<record id="497" name ="ROSARIO" idprovincia ="S" />
+	<record id="498" name ="SAN CRISTOBAL" idprovincia ="S" />
+	<record id="499" name ="SAN JAVIER" idprovincia ="S" />
+	<record id="500" name ="SAN JERONIMO" idprovincia ="S" />
+	<record id="501" name ="SAN JUSTO" idprovincia ="S" />
+	<record id="502" name ="SAN LORENZO" idprovincia ="S" />
+	<record id="503" name ="SAN MARTIN" idprovincia ="S" />
+	<record id="504" name ="VERA" idprovincia ="S" />
+	<record id="505" name ="BURRUYACU" idprovincia ="T" />
+	<record id="506" name ="CAPITAL" idprovincia ="T" />
+	<record id="507" name ="CHICLIGASTA" idprovincia ="T" />
+	<record id="508" name ="CRUZ ALTA" idprovincia ="T" />
+	<record id="509" name ="FAMAILLA" idprovincia ="T" />
+	<record id="510" name ="GRANEROS" idprovincia ="T" />
+	<record id="511" name ="JUAN B ALBERDI" idprovincia ="T" />
+	<record id="512" name ="LA COCHA" idprovincia ="T" />
+	<record id="513" name ="LEALES" idprovincia ="T" />
+	<record id="514" name ="LULES" idprovincia ="T" />
+	<record id="515" name ="MONTEROS" idprovincia ="T" />
+	<record id="516" name ="RIO CHICO" idprovincia ="T" />
+	<record id="517" name ="SIMOCA" idprovincia ="T" />
+	<record id="518" name ="TAFI DEL VALLE" idprovincia ="T" />
+	<record id="519" name ="TAFI VIEJO" idprovincia ="T" />
+	<record id="520" name ="TRANCAS" idprovincia ="T" />
+	<record id="521" name ="YERBA BUENA" idprovincia ="T" />
+	<record id="522" name ="BIEDMA" idprovincia ="U" />
+	<record id="523" name ="CUSHAMEN" idprovincia ="U" />
+	<record id="524" name ="ESCALANTE" idprovincia ="U" />
+	<record id="525" name ="FLORENTINO AMEGHINO" idprovincia ="U" />
+	<record id="526" name ="FUTALEUFU" idprovincia ="U" />
+	<record id="527" name ="GAIMAN" idprovincia ="U" />
+	<record id="528" name ="GASTRE" idprovincia ="U" />
+	<record id="529" name ="LANGUIÑEO" idprovincia ="U" />
+	<record id="530" name ="MARTIRES" idprovincia ="U" />
+	<record id="531" name ="PASO DE INDIOS" idprovincia ="U" />
+	<record id="532" name ="RAWSON" idprovincia ="U" />
+	<record id="533" name ="RIO SENGUER" idprovincia ="U" />
+	<record id="534" name ="SARMIENTO" idprovincia ="U" />
+	<record id="535" name ="TEHUELCHES" idprovincia ="U" />
+	<record id="536" name ="TELSEN" idprovincia ="U" />
+	<record id="537" name ="ANTARTIDA" idprovincia ="V" />
+	<record id="538" name ="MALVINAS" idprovincia ="V" />
+	<record id="539" name ="RIO GRANDE" idprovincia ="V" />
+	<record id="540" name ="USHUAIA" idprovincia ="V" />
+	<record id="541" name ="BELLA VISTA" idprovincia ="W" />
+	<record id="542" name ="BERON DE ASTRADA" idprovincia ="W" />
+	<record id="543" name ="CAPITAL" idprovincia ="W" />
+	<record id="544" name ="CONCEPCION" idprovincia ="W" />
+	<record id="545" name ="CURUZU CUATIA" idprovincia ="W" />
+	<record id="546" name ="EMPEDRADO" idprovincia ="W" />
+	<record id="547" name ="ESQUINA" idprovincia ="W" />
+	<record id="548" name ="GENERAL ALVEAR" idprovincia ="W" />
+	<record id="549" name ="GENERAL PAZ" idprovincia ="W" />
+	<record id="550" name ="GOYA" idprovincia ="W" />
+	<record id="551" name ="ITATI" idprovincia ="W" />
+	<record id="552" name ="ITUZAINGO" idprovincia ="W" />
+	<record id="553" name ="LAVALLE" idprovincia ="W" />
+	<record id="554" name ="MBURUCUYA" idprovincia ="W" />
+	<record id="555" name ="MERCEDES" idprovincia ="W" />
+	<record id="556" name ="MONTE CASEROS" idprovincia ="W" />
+	<record id="557" name ="PASO DE LOS LIBRES" idprovincia ="W" />
+	<record id="558" name ="SALADAS" idprovincia ="W" />
+	<record id="559" name ="SAN COSME" idprovincia ="W" />
+	<record id="560" name ="SAN LUIS DEL PALMAR" idprovincia ="W" />
+	<record id="561" name ="SAN MARTIN" idprovincia ="W" />
+	<record id="562" name ="SAN MIGUEL" idprovincia ="W" />
+	<record id="563" name ="SAN ROQUE" idprovincia ="W" />
+	<record id="564" name ="SANTO TOME" idprovincia ="W" />
+	<record id="565" name ="SAUCE" idprovincia ="W" />
+	<record id="566" name ="COCHINOCA" idprovincia ="Y" />
+	<record id="567" name ="DR MANUEL BELGRANO" idprovincia ="Y" />
+	<record id="568" name ="EL CARMEN" idprovincia ="Y" />
+	<record id="569" name ="HUMAHUACA" idprovincia ="Y" />
+	<record id="570" name ="LEDESMA" idprovincia ="Y" />
+	<record id="571" name ="PALPALA" idprovincia ="Y" />
+	<record id="572" name ="RINCONADA" idprovincia ="Y" />
+	<record id="573" name ="SAN ANTONIO" idprovincia ="Y" />
+	<record id="574" name ="SAN PEDRO" idprovincia ="Y" />
+	<record id="575" name ="SANTA BARBARA" idprovincia ="Y" />
+	<record id="576" name ="SANTA CATALINA" idprovincia ="Y" />
+	<record id="577" name ="SUSQUES" idprovincia ="Y" />
+	<record id="578" name ="TILCARA" idprovincia ="Y" />
+	<record id="579" name ="TUMBAYA" idprovincia ="Y" />
+	<record id="580" name ="VALLE GRANDE" idprovincia ="Y" />
+	<record id="581" name ="YAVI" idprovincia ="Y" />
+	<record id="582" name ="CORPEN AIKE" idprovincia ="Z" />
+	<record id="583" name ="DESEADO" idprovincia ="Z" />
+	<record id="584" name ="GUER AIKE" idprovincia ="Z" />
+	<record id="585" name ="LAGO ARGENTINO" idprovincia ="Z" />
+	<record id="586" name ="LAGO BUENOS AIRES" idprovincia ="Z" />
+	<record id="587" name ="MAGALLANES" idprovincia ="Z" />
+	<record id="588" name ="RIO CHICO" idprovincia ="Z" />
+	<record id="0" name ="SIN ASIGNAR" idprovincia ="X" />
+	<record id="1" name ="CAPITAL" idprovincia ="X" />
+	<record id="591" name ="CALAMUCHITA" idprovincia ="X" />
+	<record id="592" name ="COLON" idprovincia ="X" />
+	<record id="593" name ="CRUZ DEL EJE" idprovincia ="X" />
+	<record id="594" name ="GENERAL ROCA" idprovincia ="X" />
+	<record id="595" name ="GENERAL SAN MARTIN" idprovincia ="X" />
+	<record id="596" name ="ISCHILIN" idprovincia ="X" />
+	<record id="597" name ="JUAREZ CELMAN" idprovincia ="X" />
+	<record id="598" name ="MARCOS JUAREZ" idprovincia ="X" />
+	<record id="599" name ="MINAS" idprovincia ="X" />
+	<record id="600" name ="POCHO" idprovincia ="X" />
+	<record id="601" name ="PTE. ROQUE SAENZ PEÑA" idprovincia ="X" />
+	<record id="602" name ="PUNILLA" idprovincia ="X" />
+	<record id="603" name ="RIO CUARTO" idprovincia ="X" />
+	<record id="604" name ="RIO PRIMERO" idprovincia ="X" />
+	<record id="605" name ="RIO SECO" idprovincia ="X" />
+	<record id="606" name ="RIO SEGUNDO" idprovincia ="X" />
+	<record id="607" name ="SAN ALBERTO" idprovincia ="X" />
+	<record id="608" name ="SAN JAVIER" idprovincia ="X" />
+	<record id="609" name ="SAN JUSTO" idprovincia ="X" />
+	<record id="610" name ="SANTA MARIA" idprovincia ="X" />
+	<record id="611" name ="SOBREMONTE" idprovincia ="X" />
+	<record id="612" name ="TERCERO ARRIBA" idprovincia ="X" />
+	<record id="613" name ="TOTORAL" idprovincia ="X" />
+	<record id="614" name ="TULUMBA" idprovincia ="X" />
+	<record id="615" name ="UNION" idprovincia ="X" />
+</departamentos>

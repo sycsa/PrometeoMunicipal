@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<provincias>
+    <record id="0" name ="SIN ASIGNAR" idpais="ARG" />
+	<record id="B" name ="BUENOS AIRES" idpais="ARG" />
+	<record id="C" name ="CAPITAL FEDERAL" idpais="ARG" />
+	<record id="K" name ="CATAMARCA" idpais="ARG" />
+	<record id="H" name ="CHACO" idpais="ARG" />
+	<record id="U" name ="CHUBUT" idpais="ARG" />
+	<record id="X" name ="CORDOBA" idpais="ARG" />
+	<record id="W" name ="CORRIENTES" idpais="ARG" />
+	<record id="E" name ="ENTRE RIOS" idpais="ARG" />
+	<record id="P" name ="FORMOSA" idpais="ARG" />
+	<record id="Y" name ="JUJUY" idpais="ARG" />
+	<record id="L" name ="LA PAMPA" idpais="ARG" />
+	<record id="F" name ="LA RIOJA" idpais="ARG" />
+	<record id="M" name ="MENDOZA" idpais="ARG" />
+	<record id="N" name ="MISIONES" idpais="ARG" />
+	<record id="Q" name ="NEUQUEN" idpais="ARG" />
+	<record id="R" name ="RIO NEGRO" idpais="ARG" />
+	<record id="A" name ="SALTA" idpais="ARG" />
+	<record id="J" name ="SAN JUAN" idpais="ARG" />
+	<record id="D" name ="SAN LUIS" idpais="ARG" />
+	<record id="Z" name ="SANTA CRUZ" idpais="ARG" />
+	<record id="S" name ="SANTA FE" idpais="ARG" />
+	<record id="G" name ="SANTIAGO DEL ESTERO" idpais="ARG" />
+	<record id="V" name ="TIERRA DEL FUEGO" idpais="ARG" />
+	<record id="T" name ="TUCUMAN" idpais="ARG" />
+</provincias>

@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ar.gov.mendoza.PrometeoMuni">
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" /> <!-- uses-permission android:name="android.permission.WRITE_SETTINGS" / -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <uses-feature android:name="android.hardware.camera.any" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false" />
+    <uses-feature android:name="android.hardware.screen.landscape" />
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+
+
+    <!--application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"-->
+    <application
+        android:name="ar.gov.mendoza.PrometeoMuni.singleton.GlobalStateApp"
+        android:allowBackup="false"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/rivadavia"
+        android:label="@string/app_name"
+        android:theme="@style/DeviceActasTheme"
+        android:largeHeap="true"
+
+        ><!-- tools:ignore="UnusedAttribute" -->
+        <!--
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> -->
+
+        <activity
+            android:name="com.microblink.activity.Pdf417ScanActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- Theme.AppCompat.Light -->
+
+
+        <!-- .DarkActionBar -->
+
+
+        <!-- android:debuggable="true" -->
+
+
+        <!-- ACTIVIDAD INICIAL -->
+        <!-- <activity -->
+        <!-- android:name="com.androidbook.btdt.hour22.QuizSplashActivity" -->
+        <!-- android:label="@string/app_name" > -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
+        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+        <activity android:name="jim.h.common.android.zxinglib.CaptureActivity"
+            android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="ar.gov.mendoza.PrometeoMuni.NullActivity"
+            android:label="Device Actas"
+            android:launchMode="singleTask"
+            android:stateNotNeeded="true"
+            android:theme="@android:style/Theme.Wallpaper.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="ar.gov.mendoza.PrometeoMuni.SplashActivity"
+            android:label="@string/app_name"
+            android:noHistory="true" >
+        </activity>
+        <!-- android:screenOrientation="portrait" -->
+        <activity
+            android:name="ar.gov.mendoza.PrometeoMuni.LoginActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+
+            >
+        </activity>
+
+        <activity
+            android:name="ar.gov.mendoza.PrometeoMuni.PdaMenuActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+
+            <!-- android:theme="@android:style/Theme.NoTitleBar.Fullscreen" -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- android:theme="@style/Theme.Sherlock" -->
+        <activity
+            android:name="ar.gov.mendoza.PrometeoMuni.CreateActaActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow" >
+
+            <!-- |keyboardHidden|keyboard -->
+            <!-- enable the search dialog to send searches to SearchableActivity -->
+            <!-- <meta-data android:name="android.app.default_searchable" -->
+            <!-- android:value=".SearchableActivity" /> -->
+
+        </activity>
+        <activity android:name="ar.gov.mendoza.PrometeoMuni.HelpActivity" >
+        </activity>
+        <!-- <activity android:name="com.androidbook.btdt.hour22.QuizMenuActivity" > -->
+        <!-- </activity> -->
+        <activity android:name="ar.gov.mendoza.PrometeoMuni.ScoresActivity" >
+        </activity>
+        <activity android:name="ar.gov.mendoza.PrometeoMuni.SettingsActivity" >
+        </activity>
+
+
+        <service android:name="ar.gov.mendoza.PrometeoMuni.QuizSettingsActivity$UploaderService" >
+        </service>
+
+        <receiver android:name="ar.gov.mendoza.PrometeoMuni.WidgetProvider" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_info" />
+        </receiver>
+
+        <!-- SERVICES -->
+        <service android:name="ar.gov.mendoza.PrometeoMuni.QuizWidgetProvider$WidgetUpdateService" />
+
+        <!-- PROVIDERS -->
+        <provider
+            android:name="ar.gov.mendoza.PrometeoMuni.core.providers.VersionProvider"
+            android:authorities="ar.gov.mendoza.PrometeoMuni.core.providers.VersionProvider"
+            android:exported="false" >
+        </provider>
+        <provider
+            android:name="ar.gov.mendoza.PrometeoMuni.core.providers.PaisProvider"
+            android:authorities="ar.gov.mendoza.PrometeoMuni.core.providers.PaisProvider"
+            android:exported="false" >
+        </provider>
+        <provider
+            android:name="ar.gov.mendoza.PrometeoMuni.core.providers.ProvinciaProvider"
+            android:authorities="ar.gov.mendoza.PrometeoMuni.core.providers.ProvinciaProvider"
+            android:exported="false" >
+        </provider>
+        <provider
+            android:name="ar.gov.mendoza.PrometeoMuni.core.providers.DepartamentoProvider"
+            android:authorities="ar.gov.mendoza.PrometeoMuni.core.providers.DepartamentoProvider"
+            android:exported="false" >
+        </provider>
+        <provider
+            android:name="ar.gov.mendoza.PrometeoMuni.core.providers.LocalidadProvider"
+            android:authorities="ar.gov.mendoza.PrometeoMuni.core.providers.LocalidadProvider"
+            android:exported="false" >
+        </provider>
+        <provider
+            android:name="ar.gov.mendoza.PrometeoMuni.core.providers.ActaConstatacionProvider"
+            android:authorities="ar.gov.mendoza.PrometeoMuni.core.providers.ActaConstatacionProvider"
+            android:exported="false" >
+        </provider>
+
+        <activity
+            android:name="ar.gov.mendoza.PrometeoMuni.ListPaisesActivity"
+            android:label="@string/title_activity_list_paises" >
+        </activity>
+        <activity
+            android:name="ar.gov.mendoza.PrometeoMuni.ListProvinciasActivity"
+            android:label="@string/title_activity_list_provincias" >
+        </activity>
+        <activity
+            android:name="ar.gov.mendoza.PrometeoMuni.ListDepartamentosActivity"
+            android:label="@string/title_activity_list_departamentos" >
+        </activity>
+        <activity
+            android:name="ar.gov.mendoza.PrometeoMuni.services.LocationServicedadesActivity"
+            android:label="@string/title_activity_list_localidades" >
+        </activity>
+        <!--         <activity -->
+        <!--             androd:name="ar.gov.mendoza.deviceactas.services.SetupService.deviceactas.ConsultasRestriccionesActivity" -->
+        <!--             android:label="@string/title_activity_consultas_restricciones" > -->
+        <!--         </activity> -->
+        <activity
+            android:name="ar.gov.mendoza.PrometeoMuni.ConsultasRestriccionesActivity"
+            android:label="@string/title_activity_consultas_restricciones" >
+        </activity>
+
+        <!-- ar.gov.mendoza.deviceactas.services.RadarServiceES -->
+        <service
+            android:name="ar.gov.mendoza.PrometeoMuni.services.LocationService"
+            android:icon="@drawable/icon"
+            />
+        <service
+            android:name="ar.gov.mendoza.PrometeoMuni.services.SetupService"
+            android:icon="@drawable/icon"
+            android:label="@string/service_setup" />
+        <service
+            android:name="ar.gov.mendoza.PrometeoMuni.services.RadarService"
+            android:icon="@drawable/icon"
+            android:label="@string/service_unkwon" />
+        <service
+            android:name="ar.gov.mendoza.PrometeoMuni.services.ActualizacionService"
+            android:icon="@drawable/icon"
+            android:label="@string/service_unkwon" />
+
+        <activity
+            android:name="ar.gov.mendoza.PrometeoMuni.ListGenericActivity"
+            android:label="@string/title_activity_list_generic" >
+        </activity>
+        <activity
+            android:name="ar.gov.mendoza.PrometeoMuni.ActasSearchableActivity"
+            android:label="@string/title_activity_searchable"
+            android:launchMode="singleTop" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <!-- <meta-data android:name="android.app.searchable" -->
+            <!-- android:resource="@xml/searchable"/> -->
+        </activity>
+        <activity
+            android:name="ar.gov.mendoza.PrometeoMuni.DominioSearchableActivity"
+            android:label="@string/title_activity_searchable"
+            android:launchMode="singleTop" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <!-- <meta-data android:name="android.app.searchable" -->
+            <!-- android:resource="@xml/searchable"/> -->
+        </activity>
+        <activity
+            android:name="ar.gov.mendoza.PrometeoMuni.PersonaSearchableActivity"
+            android:label="@string/title_activity_searchable"
+            android:launchMode="singleTop" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <!-- <meta-data android:name="android.app.searchable" -->
+            <!-- android:resource="@xml/searchable"/> -->
+        </activity>
+        <activity
+            android:name="ar.gov.mendoza.PrometeoMuni.InfraccionNomencladaSearchableActivity"
+            android:label="@string/title_activity_searchable"
+            android:launchMode="singleTop" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <!-- <meta-data android:name="android.app.searchable" -->
+            <!-- android:resource="@xml/searchable"/> -->
+        </activity>
+        <activity
+            android:name="ar.gov.mendoza.PrometeoMuni.InformeActasSearchableActivity"
+            android:label="@string/title_activity_searchable"
+            android:launchMode="singleTop" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <!-- <meta-data android:name="android.app.searchable" -->
+            <!-- android:resource="@xml/searchable"/> -->
+        </activity>
+        <activity
+            android:name="com.zebra.android.zebrautilitiesmza.screens.chooseprinter.ChoosePrinterController"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.zebra.android.zar.gov.mendoza.deviceactas.screens.actas.VerificacionActaActivityTrafficTicket"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="Traffic Ticket"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.zebra.android.zebrautilitiesmza.statusdialog.StatusDialog"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTop" />
+
+        <!--oid.zebrautilitiescba.statusdialog.StatusDialog"
+         ar.gov.mendoza.deviceactas.screens.verificaciones.VerificacionPolicialActivity -->
+        <activity
+            android:name="ar.gov.mendoza.PrometeoMuni.screens.actas.VerificacionActaActivity"
+
+            android:label="@string/title_activity_verificacion_acta"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="ar.gov.mendoza.PrometeoMuni.screens.verificaciones.VerificacionPolicialActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_verificacion_policial"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="ar.gov.mendoza.PrometeoMuni.screens.verificaciones.ResultadoVerificacionPolicialActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_resultado_verificacion"
+            android:screenOrientation="portrait" >
+
+        </activity>
+        <activity
+            android:name="ar.gov.mendoza.PrometeoMuni.InitializeActivity"
+            android:label="@string/title_activity_initialize"
+            android:theme="@style/Theme.Transparent"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            >
+
+
+
+        </activity>
+
+        <activity
+            android:name="ar.gov.mendoza.PrometeoMuni.AdvancedSplashActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Transparent" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" >
+                </action>
+
+                <category android:name="android.intent.category.LAUNCHER" >
+                </category>
+            </intent-filter>
+
+
+        </activity>
+
+        <activity android:name="com.google.zxing.client.android.CaptureActivity"
+            android:screenOrientation="sensorLandscape"
+            android:clearTaskOnLaunch="true"
+            android:stateNotNeeded="true"
+            android:theme="@style/CaptureTheme"
+            android:windowSoftInputMode="stateAlwaysHidden">
+            <!-- intent-filter>
+              <action android:name="com.google.zxing.client.android.SCAN"/>
+              <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter-->
+        </activity>
+        <activity android:name="com.google.zxing.client.android.PreferencesActivity"
+            android:label="@string/preferences_name"
+            android:stateNotNeeded="true"/>
+
+    </application>
+
+
+</manifest>

@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" 
+    android:background="@drawable/bg1"
+     android:orientation="vertical">
+
+ <LinearLayout
+     android:id="@+id/searcher_header"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:orientation="vertical" >
+
+      <TextView
+            android:id="@+id/textViewDocumento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Documento"
+            android:gravity="left"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+     <EditText
+            android:id="@+id/editTextNroDocumento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Numero de Documento"
+            android:textColor="@color/normal_text_color"
+            android:textSize="20dp" />
+      <Button
+            android:id="@+id/btnBuscarRestricciones"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/loginbutton_bg"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:text="Buscar" 
+            />   
+     
+ </LinearLayout>
+     <TextView
+        android:id="@+id/TextView_ResultText"
+        android:textColor="@color/title_color"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:autoLink="all"
+        android:isScrollContainer="true"
+        android:textStyle="italic"
+        android:drawablePadding="@dimen/help_text_drawable_padding"
+        android:textColorLink="@color/logo_color"
+        android:linksClickable="true"
+        android:fadingEdgeLength="@dimen/help_text_fading"
+        android:fadingEdge="vertical"
+        android:scrollbars="vertical"
+        android:padding="@dimen/help_text_padding"
+        android:textSize="@dimen/help_text_size"
+        android:scrollbarStyle="outsideOverlay"
+        android:bufferType="spannable"></TextView>
+    
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:sgoliver="http://schemas.android.com/apk/res-auto" >
+    <item
+        android:id="@+id/action_acta_sincronizar"
+        android:orderInCategory="100"
+        sgoliver:showAsAction="always|withText"
+        android:icon="@drawable/ic_action_refresh"
+        android:title="@string/menu_item_sincronizar_acta"
+        />
+<!--     <item -->
+<!--         android:id="@+id/action_acta_print" -->
+<!--         android:orderInCategory="100" -->
+<!--         android:title="@string/menu_item_imprimir_acta" -->
+<!--         sgoliver:showAsAction="ifRoom|withText"> -->
+<!--     </item> -->
+
+</menu> 

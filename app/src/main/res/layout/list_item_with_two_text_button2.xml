@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:padding="10dip" >
+<TextView
+android:id="@+id/id_entry"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:textSize="18sp" />
+<LinearLayout 	
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/listPreferredItemHeight">
+<!-- <TextView -->
+<!-- android:id="@+id/" -->
+<!-- android:layout_width="wrap_content" -->
+<!-- android:layout_height="wrap_content" -->
+
+<!-- android:maxLines="5"/> -->
+
+
+    <TextView
+        android:id="@+id/description_entry"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:maxLines="7"
+        android:ellipsize="end"
+        android:textSize="16sp" 
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/itemButton"
+        android:layout_height="match_parent"
+        android:layout_width="56dip"
+        android:background="?attr/selectableItemBackground"
+        android:src="@drawable/printer"
+        android:contentDescription="Imprimir"
+        
+        />
+<!--android:onClick="ItemButtonOnClickHandler"    
+ @string/content_open_popup -->
+
+</LinearLayout>
+</LinearLayout>

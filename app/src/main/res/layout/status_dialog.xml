@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/LightGrey" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="fill" android:orientation="horizontal" android:id="@id/statusRelativeLayout" android:background="@layout/rounded_corners" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:maxLines="1">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textStyle="bold" android:textColor="@color/Black" android:id="@id/statusLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="Printer Status..." android:maxLines="1" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/LightBlue" android:id="@id/statusOfPrinter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="" android:maxLines="1" android:layout_toRightOf="@id/statusLabel" android:layout_centerVertical="true" />
+        <Button android:id="@id/statusRefreshButton" android:background="@drawable/refresh_status_image" android:visibility="invisible" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/statusMessageLayout" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip">
+        <TextView android:id="@id/numberOfErrorsLabel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+        <ListView android:id="@id/statusMessageList" android:background="@layout/rounded_corners" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/statusLayout" android:background="@layout/rounded_corners" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="40.0dip" android:maxLines="1">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textStyle="bold" android:textColor="@color/Black" android:gravity="left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="Last Updated" android:maxLines="1" android:layout_weight="1.0" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/LightBlue" android:gravity="right" android:id="@id/lastUpdateTime" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="N/A" android:maxLines="1" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:id="@id/webFileTable" android:layout_width="fill_parent" android:layout_height="fill_parent" android:stretchColumns="1" android:shrinkColumns="0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow>
+        <TextView android:textSize="15.0dip" android:textStyle="bold" android:textColor="@color/Black" android:ellipsize="end" android:id="@id/fileName" android:layout_marginLeft="10.0dip" android:singleLine="true" />
+        <ImageView android:gravity="right" android:layout_gravity="right" android:id="@id/checkBox" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="10.0dip" android:src="@drawable/btn_check_buttonless_on" />
+    </TableRow>
+    <TableRow>
+        <TextView android:textSize="11.0dip" android:textColor="@color/Black" android:id="@id/fileDate" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+        <TextView android:textSize="11.0dip" android:textColor="@color/Black" android:gravity="right" android:id="@id/fileSize" android:layout_marginRight="10.0dip" />
+    </TableRow>
+    <ProgressBar android:id="@id/zebraProgressBar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip" android:max="100" android:progress="0" style="?android:attr/progressBarStyleHorizontal" />
+</TableLayout>

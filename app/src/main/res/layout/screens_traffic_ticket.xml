@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/traffic_ticket_main_layout" android:background="@color/LightGrey" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:orientation="vertical" android:background="@color/LightGrey" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="50.0dip">
+        <LinearLayout android:orientation="vertical" android:background="@color/LightGrey" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/edit_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <EditText android:id="@id/LicensePlateInput" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:hint="Click to enter plate number" android:maxLength="10" android:layout_weight="1.0" android:inputType="textFilter|textNoSuggestions" />
+            </LinearLayout>
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/Black" android:id="@id/offense_text" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="Select a violation:" />
+            <Spinner android:id="@id/traffic_ticket_picker" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+            <LinearLayout android:orientation="vertical" android:id="@id/violator_linear_layout" android:background="@color/LightGrey" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ListView android:id="@id/violator_list" android:background="@layout/rounded_corners" android:focusable="false" android:scrollbars="none" android:clickable="false" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:cacheColorHint="@color/White" android:divider="@*android:color/transparent" />
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/Black" android:id="@id/signature_header" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:text="Click below to sign:" />
+                <ImageView android:id="@id/signature_image" android:background="@color/White" android:layout_width="fill_parent" android:layout_height="160.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <Button android:enabled="false" android:id="@id/traffic_ticket_print_button" android:paddingLeft="40.0dip" android:paddingRight="40.0dip" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:text="Print" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+</RelativeLayout>

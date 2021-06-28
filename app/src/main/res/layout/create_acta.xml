@@ -1,0 +1,2666 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:componentes="http://schemas.android.com/apk/res/ar.gov.mendoza.PrometeoMuni"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    android:padding="5dp"
+	tools:ignore="ResAuto">
+	
+<!-- xmlns:componentes="http://schemas.android.com/apk/res/ar.gov.mendoza.deviceactas"
+ android:background="@drawable/bkgrnd" -->
+<!--     <RelativeLayout -->
+<!--         android:id="@+id/RelativeLayout01" -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content"> -->
+        <!--ImageView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/ImageView_MenuHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"></ImageView-->
+<!--         <TextView -->
+<!--             android:id="@+id/TextView01" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:text="@string/create_acta" -->
+<!--             android:textSize="@dimen/screen_title_size" -->
+<!--             android:shadowDx="0" -->
+<!--             android:shadowDy="0" -->
+<!--             android:shadowRadius="10" -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_gravity="fill_horizontal|center" -->
+<!--             android:layout_alignParentTop="true" -->
+<!--             android:layout_centerHorizontal="true" -->
+<!--             android:shadowColor="@android:color/black" -->
+<!--             android:textColor="@color/title_color"></TextView> -->
+<!--          <TextView -->
+<!--             android:id="@+id/TextView_Numero_Acta" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:text="000000000000" -->
+<!--             android:textSize="@dimen/screen_title_size" -->
+<!--             android:layout_width="wrap_content" -->
+<!--              android:layout_gravity="right|center_vertical" -->
+<!--             android:layout_alignParentTop="true" -->
+<!--             android:layout_alignParentRight="true" -->
+<!--             android:layout_centerHorizontal="true" -->
+<!--             android:shadowColor="@android:color/black" -->
+<!--             android:textColor="@color/title_color"></TextView> -->
+        <!--ImageView
+            android:id="@+id/ImageView_MenuHeader2"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon"
+            android:layout_gravity="right|center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"></ImageView-->
+<!--     </RelativeLayout> -->
+<LinearLayout  android:orientation="horizontal"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+            <TextView
+            android:id="@+id/TextView01"
+            android:layout_height="wrap_content"
+            android:text="@string/create_acta"
+            android:textSize="@dimen/screen_title_size"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_width="wrap_content"
+            android:textColor="@android:color/black"
+            ></TextView>
+<!--  android:shadowColor="@android:color/black" -->
+         <TextView
+             android:id="@+id/TextView_Numero_Acta"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:padding="5dp"
+             android:text="000000000000"
+             android:textColor="@android:color/black"
+             android:textSize="@dimen/screen_title_size" >
+</TextView>
+    
+</LinearLayout>
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="5"
+        android:isScrollContainer="true"
+        android:scrollbars="vertical"
+        android:scrollbarAlwaysDrawVerticalTrack="true">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >  
+            
+           <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/ColorPnlRuta"
+            android:padding="@dimen/device_actas_panel_padding"> 
+            
+            
+            <!-- Button with X  -->
+<!--         <ar.gov.cba.deviceactas.layouts.EditTextWithDeleteButton -->
+<!--         android:id="@+id/textView1" -->
+<!--         android:layout_width="fill_parent" -->
+<!--         android:layout_height="wrap_content" -->
+        
+<!--         android:textSize="@dimen/help_text_size" -->
+<!--         android:textStyle="bold" -->
+        
+<!--         android:orientation="horizontal" -->
+<!--         componentes:hintText="Seleccione una Infraccion" -->
+<!--         componentes:deleteButtonRes="@drawable/text_field_clear_btn"  -->
+<!--         /> -->
+<!--
+    	android:background="@drawable/textfield_bg"
+ 		componentes:deleteButtonRes="@drawable/text_field_clear_btn" 
+ 		android:layout_marginTop="22dp"
+		android:ems="10"
+		android:textAppearance="?android:attr/textAppearanceMedium"    
+   		delusions:deleteButtonRes="@drawable/text_field_clear_btn" 
+        delusions:hintText="Deneme"               
+ 				-->
+            <!-- TIPO DE RUTA -->
+            <TextView
+                android:id="@+id/TextView_TipoRuta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_acta_tiporuta"
+                android:textSize="@dimen/version_size"
+                android:textStyle="bold"></TextView>
+           <!-- RelativeLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="top|left"
+	        -->
+            <TextView
+                android:id="@+id/TextView_DepartamentoInfraccion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Departamento"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>
+
+	        <Spinner
+                android:id="@+id/Spinner_DepartamentoInfraccion"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:entries="@array/tipos_ruta"
+                style="@android:style/Widget.Spinner"
+                android:prompt="@string/create_acta_seltiporuta"
+                
+                ></Spinner>
+            <TextView
+                android:id="@+id/TextView_LocalidadInfraccion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Localidad"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"
+                android:visibility="gone"
+                ></TextView>
+	        
+           <Spinner
+                android:id="@+id/Spinner_LocalidadInfraccion"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                style="@android:style/Widget.Spinner"
+                android:prompt="@string/create_acta_selnroruta"
+                android:visibility="gone"
+                ></Spinner>
+	        	<!-- android:visibility="gone" -->   
+	       <TextView
+                android:id="@+id/TextView_TipoUbicacion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="En"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"
+                ></TextView> 	     	        
+            <Spinner
+                android:id="@+id/Spinner_TipoRuta"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:entries="@array/tipos_ruta"
+                style="@android:style/Widget.Spinner"
+                android:prompt="@string/create_acta_seltiporuta"
+                
+                ></Spinner>
+           
+                <!-- Fake TextView to use to set in an error state to allow an error to be shown for the TextView -->
+	        <!-- android.widget.TextView
+	            android:id="@+id/tvInvisibleError"
+	            android:layout_width="0dp"
+	            android:layout_height="0dp"
+	            android:layout_alignRight="@+id/spnMySpinner"
+	            android:layout_alignBottom="@+id/spnMySpinner"
+	            android:layout_marginTop="0dp"
+	            android:paddingTop="0dp"
+	            android:paddingRight="50dp"
+	            android:focusable="true"
+	            android:focusableInTouchMode="true"
+	            />
+	        </RelativeLayout--> 
+            <!-- Ubicacion -->
+            <EditText
+                android:id="@+id/EditText_Ubicacion"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:maxLines="1"
+                android:inputType="text"
+                android:maxLength="255"
+                android:visibility="gone"
+                style="@android:style/Widget.EditText" 
+                ></EditText>
+            <!--   -->
+            <!-- NUMERO DE RUTA o Altura -->
+			   <TextView
+				   android:id="@+id/TextView_NroRuta"
+				   android:layout_width="wrap_content"
+				   android:layout_height="wrap_content"
+				   android:text="@string/create_acta_nroruta"
+				   android:textSize="@dimen/help_text_size"
+				   android:textStyle="bold"></TextView>
+          
+           <Spinner
+                android:id="@+id/Spinner_Ruta"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                style="@android:style/Widget.Spinner"
+                android:prompt="@string/create_acta_selnroruta"
+                android:visibility="gone"
+                ></Spinner>
+            
+          <EditText
+                android:id="@+id/EditText_DescripcionUbicacion"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:maxLines="1"
+                android:inputType="text"
+                android:maxLength="255"
+                android:visibility="gone"
+                style="@android:style/Widget.EditText" 
+                ></EditText>
+                      
+            <!-- KM -->
+            <TextView
+                android:id="@+id/TextView_Km"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>
+            <!-- android:text="@string/create_acta_km"-->
+            <EditText
+                android:id="@+id/EditText_Km"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:maxLines="1"
+                android:inputType="numberDecimal"
+                android:maxLength="8"
+                style="@android:style/Widget.EditText" 
+                android:visibility="gone"
+                ></EditText>
+            
+        
+  </LinearLayout>           
+  
+           
+                <View                                     
+			   android:layout_width="fill_parent"
+			   android:layout_height="2dp"
+			   android:layout_marginBottom="@dimen/device_actas_view_divisor_margin_bottom"     
+			   android:background="#C0C0C0"/>  
+
+            <!-- REFERENCIA -->
+          <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/ColorPnlReferencia"
+            android:padding="@dimen/device_actas_panel_padding"> 
+            <TextView
+                android:id="@+id/TextView_Referencia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Referencia"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>
+
+            <EditText
+                android:id="@+id/EditText_Referencia"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:maxLines="1"
+                style="@android:style/Widget.EditText" 
+                ></EditText>
+	   </LinearLayout>           
+  
+           
+                <View                                     
+			   android:layout_width="fill_parent"
+			   android:layout_height="2dp"
+			   android:layout_marginBottom="@dimen/device_actas_view_divisor_margin_bottom"     
+			   android:background="#C0C0C0"/>  
+                
+                
+                <!-- JUZGADO -->
+           <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" 
+                    android:id="@+id/Layout_Entidad"
+                    android:background="@color/ColorPnlJuzgado"
+                    android:padding="@dimen/device_actas_panel_padding"
+                    >
+            <TextView
+                android:id="@+id/TextView_Juzgado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_acta_juzgado"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>
+
+			   <Spinner
+				   android:id="@+id/Spinner_Juzgado"
+				   style="@android:style/Widget.Spinner"
+				   android:layout_width="match_parent"
+				   android:layout_height="wrap_content"
+
+				   android:prompt="@string/create_acta_seljuzgado"></Spinner>
+    		<!-- Datos del Domicilio del Juzgado -->
+           <TextView  
+		        android:id="@+id/TextView_DescripcionJuzgado"  
+		        android:layout_width="match_parent"  
+		        android:layout_height="wrap_content"  
+		        android:textSize="15sp"  
+		        android:background="#FFFFE0"  
+		        android:text="@string/create_acta_sincodigoseleccionado"
+		        android:padding="4dp"
+        />
+           
+           <Spinner
+                android:id="@+id/Spinner_Seccional"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                style="@android:style/Widget.Spinner"
+                android:prompt="@string/create_acta_selseccional"
+                
+                ></Spinner>
+           
+       </LinearLayout>
+            
+              <View                                     
+			   android:layout_width="fill_parent"
+			   android:layout_height="2dp"
+			   android:layout_marginBottom="@dimen/device_actas_view_divisor_margin_bottom"     
+			   android:background="#C0C0C0"/>       
+<!-- PANEL DE INFRACCION -->                
+<LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" 
+                    android:id="@+id/Layout_Infraccion"
+                    android:background="@color/ColorPnlInfraccion"
+                    android:padding="@dimen/device_actas_panel_padding">
+          
+    	        <TextView
+                android:id="@+id/TextView_Vehiculo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VEHICULO"
+                android:textSize="@dimen/subtitle_text_size"
+                android:textStyle="bold"></TextView>
+  
+        <!-- Tipo de Vehiculo -->
+      <TextView
+                android:id="@+id/TextView_TipoVehiculo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_acta_tipovehiculo"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>            
+       <!--RadioGroup
+        android:id="@+id/radioTipoVehiculo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+ 
+        <RadioButton
+            android:id="@+id/RadioButton_Automotor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_radio_automotor" 
+            android:checked="true" />
+ 
+        <RadioButton
+            android:id="@+id/RadioButton_MotoVehiculo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_radio_motovehiculo" />
+      </RadioGroup-->
+      
+
+            <Spinner
+                android:id="@+id/Spinner_TipoVehiculo"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                style="@android:style/Widget.Spinner"
+                android:prompt="@string/create_acta_seltipovehiculo"
+                
+                ></Spinner>             
+      <LinearLayout
+          			android:id="@+id/Layout_SubPnlTipoVehiculo"
+ 					android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" 
+                    android:padding="@dimen/device_actas_panel_padding"
+                    android:visibility="gone"
+                    >
+
+          
+           <!-- TIPO DE PATENTE-->
+            <TextView
+                android:id="@+id/TextView_TipoPatente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_acta_tipopatente"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>
+            <Spinner
+                android:id="@+id/Spinner_TipoPatente"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:entries="@array/tipos_patentes"
+                style="@android:style/Widget.Spinner"
+                android:prompt="@string/create_acta_seltiporuta"
+                
+                ></Spinner>
+       
+      <!-- DOMINIO-->
+      <TextView
+                android:id="@+id/TextView_Dominio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_acta_dominio"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>
+	    <LinearLayout android:layout_width="match_parent"
+	    			  android:id="@+id/linearLayoutDominio" 
+	    			  android:layout_height="wrap_content">
+	            <EditText android:layout_weight="1"
+	                android:id="@+id/EditText_Dominio"
+	                android:layout_height="wrap_content"
+	                android:layout_width="0dp"
+	                android:inputType="text"
+	                android:maxLines="1"
+	                android:hint="@string/create_acta_ingresedominio"
+	                ></EditText>            
+	        <Button   android:id="@+id/Button_VerificarDominio" 
+	            	  android:layout_height="wrap_content"
+	            	  android:layout_width="wrap_content" 
+	            	  android:text="@string/create_acta_verificardominio" 
+	            	  android:visibility="visible" />
+	    </LinearLayout>
+       
+    <!-- Marca -->
+            <TextView
+                android:id="@+id/TextView_Marca"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_acta_marca"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>
+            <Spinner
+                android:id="@+id/Spinner_Marca"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:entries="@array/marcas"
+                style="@android:style/Widget.Spinner"
+                android:prompt="@string/create_acta_selmarca"
+              
+                ></Spinner>
+           <EditText
+               android:id="@+id/EditText_Marca"
+               android:layout_height="wrap_content"
+               android:layout_width="match_parent"
+               android:inputType="text"
+               android:hint="@string/create_acta_ingrese_marca"
+               android:visibility="gone"
+               />
+            <!-- Color -->
+            <TextView
+                android:id="@+id/TextView_Color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_acta_color"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"
+                android:visibility="visible"></TextView>
+            <Spinner
+                android:id="@+id/Spinner_Color"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:entries="@array/colores"
+                style="@android:style/Widget.Spinner"
+                android:prompt="@string/create_acta_selcolor"
+                android:visibility="visible"
+                ></Spinner>
+               <EditText
+               android:id="@+id/EditText_Color"
+               android:layout_height="wrap_content"
+               android:layout_width="match_parent"
+               android:inputType="text"
+               android:hint="@string/create_acta_ingrese_color"
+               android:visibility="gone"
+               />
+            <TextView
+                android:id="@+id/TextView_Modelo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_acta_modelo"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"
+                ></TextView>   
+            <EditText
+               android:id="@+id/EditText_Modelo"
+               android:layout_height="wrap_content"
+               android:layout_width="match_parent"
+               android:inputType="text"
+               android:hint="@string/create_acta_ingrese_modelo"
+               android:visibility="visible"
+               />
+            <TextView
+                android:id="@+id/TextView_AnioModeloVehiculo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_acta_aniomodelo"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"
+                ></TextView>   
+            <EditText
+               android:id="@+id/EditText_AnioModeloVehiculo"
+               android:layout_height="wrap_content"
+               android:layout_width="match_parent"
+               
+               android:maxLines="1"
+                android:inputType="numberDecimal"
+                android:maxLength="8"
+               android:hint="@string/create_acta_ingrese_aniomodelo"
+               android:visibility="visible"
+               />
+            <!-- android:inputType="text"-->
+            
+            <!-- Retenido -->
+            <CheckBox
+        		android:id="@+id/CheckBox_VehiculoRetenido"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:text="@string/create_acta_chk_vehiculo_retenido" />
+
+             <!-- Conduccion Peligrosa -->
+       	       <CheckBox
+        		android:id="@+id/CheckBox_ConduccionPeligrosa"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:text="@string/create_acta_chk_conduccion_peligrosa" />
+            
+         </LinearLayout>    
+  
+          <!-- Conduccion Peligrosa -->
+    	       <CheckBox
+     		android:id="@+id/CheckBox_DejaCopia"
+     		android:layout_width="wrap_content"
+     		android:layout_height="wrap_content"
+     		android:text="@string/create_acta_chk_deja_copia" />
+   
+  	        <TextView
+                android:id="@+id/TextView_InfraccionesRealizadas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INFRACCIONES"
+                android:textSize="@dimen/subtitle_text_size"
+                android:textStyle="bold"></TextView>
+  
+            <!-- Codigos de Infraccion -->
+
+    	  <LinearLayout android:layout_width="match_parent"
+                  
+    			  android:id="@+id/linearLayoutInfracciones0" 
+    			  android:layout_height="wrap_content">
+            <TextView
+                android:layout_weight="1"
+   		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+                 
+                android:id="@+id/TextView_CodigoInf1"
+                android:text="@string/create_acta_codigoinfraccion1"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>
+<!--                 android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+ -->
+            <Button   android:id="@+id/Button_BuscarInfraccion1" 
+            	  android:layout_height="50dp"
+            	  android:layout_width="50dp" 
+            	  android:text="@string/create_acta_agregarinfraccion"
+    			 
+            	   />
+</LinearLayout>
+<!--             <EditText android:layout_weight="1" -->
+<!--                 android:id="@+id/EditText_CODInfraccion_1" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:layout_width="0dp" -->
+<!--                 android:inputType="text" -->
+<!--                 android:maxLines="1" -->
+<!--                 android:focusable="false"	 -->
+<!--                 android:hint="@string/create_acta_ingresecodigoinfraccion" -->
+<!--                 ></EditText>             -->
+	  <LinearLayout android:layout_width="match_parent"
+                    android:id="@+id/linearLayoutInfracciones1" 
+    			    android:layout_height="wrap_content">
+			        <ar.gov.mendoza.PrometeoMuni.layouts.EditTextWithDeleteButton
+			        android:layout_weight="1"
+			        android:id="@+id/EditText_CODInfraccion_1"
+			        android:layout_width="0dp"
+			        android:layout_height="wrap_content"
+			        android:textSize="@dimen/help_text_size"
+			        android:textStyle="bold"
+			        android:orientation="horizontal"
+			        componentes:hintText="@string/create_acta_ingresecodigoinfraccion"
+			        componentes:deleteButtonRes="@drawable/text_field_clear_btn"
+			        android:visibility="gone"
+			        />
+			        </LinearLayout>
+			        	  <LinearLayout android:layout_width="match_parent"
+                  
+    			  android:id="@+id/linearLayoutInfracciones2" 
+    			  android:layout_height="wrap_content">
+			        <ar.gov.mendoza.PrometeoMuni.layouts.EditTextWithDeleteButton
+			        android:layout_weight="1"
+			        android:id="@+id/EditText_CODInfraccion_2"
+			        android:layout_width="0dp"
+			        android:layout_height="wrap_content"
+			        android:textSize="@dimen/help_text_size"
+			        android:textStyle="bold"
+			        android:orientation="horizontal"
+			        componentes:hintText="@string/create_acta_ingresecodigoinfraccion"
+			        componentes:deleteButtonRes="@drawable/text_field_clear_btn" 
+			        android:visibility="gone"
+			        /></LinearLayout>
+			        	  
+			       	  <LinearLayout android:layout_width="match_parent"
+                  
+    			  android:id="@+id/linearLayoutInfracciones3" 
+    			  android:layout_height="wrap_content"> 	  
+     				<ar.gov.mendoza.PrometeoMuni.layouts.EditTextWithDeleteButton
+			        android:layout_weight="1"
+			        android:id="@+id/EditText_CODInfraccion_3"
+			        android:layout_width="0dp"
+			        android:layout_height="wrap_content"
+			        android:textSize="@dimen/help_text_size"
+			        android:textStyle="bold"
+			        android:orientation="horizontal"
+			        componentes:hintText="@string/create_acta_ingresecodigoinfraccion"
+			        componentes:deleteButtonRes="@drawable/text_field_clear_btn" 
+			        android:visibility="gone"
+			        /></LinearLayout>
+			       	  
+			      <LinearLayout android:layout_width="match_parent"
+                  
+    			  android:id="@+id/linearLayoutInfracciones4" 
+    			  android:layout_height="wrap_content">
+			        <ar.gov.mendoza.PrometeoMuni.layouts.EditTextWithDeleteButton
+			        android:layout_weight="1"
+			        android:id="@+id/EditText_CODInfraccion_4"
+			        android:layout_width="0dp"
+			        android:layout_height="wrap_content"
+			        android:textSize="@dimen/help_text_size"
+			        android:textStyle="bold"
+			        android:orientation="horizontal"
+			        componentes:hintText="@string/create_acta_ingresecodigoinfraccion"
+			        componentes:deleteButtonRes="@drawable/text_field_clear_btn" 
+			        android:visibility="gone"
+			        />
+        	</LinearLayout>
+			      <LinearLayout android:layout_width="match_parent"
+                  
+    			  android:id="@+id/linearLayoutInfracciones5" 
+    			  android:layout_height="wrap_content">
+			        <ar.gov.mendoza.PrometeoMuni.layouts.EditTextWithDeleteButton
+			        android:layout_weight="1"
+			        android:id="@+id/EditText_CODInfraccion_5"
+			        android:layout_width="0dp"
+			        android:layout_height="wrap_content"
+			        android:textSize="@dimen/help_text_size"
+			        android:textStyle="bold"
+			        android:orientation="horizontal"
+			        componentes:hintText="@string/create_acta_ingresecodigoinfraccion"
+			        componentes:deleteButtonRes="@drawable/text_field_clear_btn" 
+			        android:visibility="gone"
+			        />
+        	</LinearLayout>
+			      <LinearLayout android:layout_width="match_parent"
+                  
+    			  android:id="@+id/linearLayoutInfracciones6" 
+    			  android:layout_height="wrap_content">
+			        <ar.gov.mendoza.PrometeoMuni.layouts.EditTextWithDeleteButton
+			        android:layout_weight="1"
+			        android:id="@+id/EditText_CODInfraccion_6"
+			        android:layout_width="0dp"
+			        android:layout_height="wrap_content"
+			        android:textSize="@dimen/help_text_size"
+			        android:textStyle="bold"
+			        android:orientation="horizontal"
+			        componentes:hintText="@string/create_acta_ingresecodigoinfraccion"
+			        componentes:deleteButtonRes="@drawable/text_field_clear_btn" 
+			        android:visibility="gone"
+			        />
+        	</LinearLayout>
+
+
+	<TextView
+		android:id="@+id/TextView_DescripcionInfraccion1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="#FFFFE0"
+		android:text="@string/create_acta_sincodigoseleccionado"
+		android:textSize="30sp" />
+
+	<TextView
+		android:id="@+id/TextView_AlcoholEnSangre"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/create_acta_alcohol"
+		android:textSize="@dimen/help_text_size"
+		android:textStyle="bold"
+		android:visibility="gone" />
+
+	<EditText
+		android:id="@+id/EditText_AlcoholEnSangre"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="@string/alcoholemia_hint"
+		android:inputType="numberDecimal"
+		android:visibility="gone" />
+
+
+	<!-- Observaciones -->
+	<TextView
+                android:id="@+id/TextView_Observaciones"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_acta_observaciones"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>	
+    <!-- An EditText with height to display 3 lines of text -->
+    <EditText android:id="@+id/EditText_Observaciones" 
+              android:layout_width="match_parent" 
+              android:layout_height="wrap_content" 
+              android:inputType="text"
+              android:text="" 
+              android:singleLine="true"
+              android:maxLength="255"
+              android:scrollbars="vertical"
+              android:gravity="top|left"
+              />
+         <TextView
+                android:id="@+id/TextView_CodigoInf2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_acta_codigoinfraccion2"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"
+                android:visibility="gone"
+                ></TextView>
+         <LinearLayout android:layout_width="match_parent"
+    			  android:id="@+id/linearLayoutInfraccionesn" 
+    			  android:layout_height="1px"
+    			  android:visibility="invisible"
+    			  >
+        	<!-- antes esta android:layout_height="wrap_content" -->>
+<!--             <EditText android:layout_weight="1" -->
+<!--                 android:id="@+id/EditText_CODInfraccion_2" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:layout_width="0dp" -->
+<!--                 android:inputType="text" -->
+<!--                 android:maxLines="1" -->
+<!--                 android:focusable="false"	 -->
+<!--                 android:hint="@string/create_acta_ingresecodigoinfraccion" -->
+<!--                 ></EditText>             -->
+					
+        	<Button   android:id="@+id/Button_BuscarInfraccion2" 
+            	  android:layout_height="wrap_content"
+            	  android:layout_width="wrap_content" 
+            	  android:text="@string/create_acta_verificarapercibimiento" />
+    	</LinearLayout>
+    	<TextView  
+        android:id="@+id/TextView_DescripcionInfraccion2"  
+        android:layout_width="match_parent"  
+        android:layout_height="1px"  
+        android:textSize="30sp"  
+        android:background="#FFFFE0"  
+        android:text="@string/create_acta_sincodigoseleccionado"  
+        />
+		<!-- antes android:layout_height="wrap_content"  -->
+    <!-- Observaciones -->
+            <TextView
+                android:id="@+id/TextView_Observaciones2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_acta_observaciones"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"
+                android:visibility="gone"
+                ></TextView>	
+    <!-- An EditText with height to display 3 lines of text -->
+    <EditText android:id="@+id/EditText_Observaciones2" 
+              android:layout_width="match_parent" 
+              android:layout_height="1px" 
+              android:inputType="text"
+              android:text="" 
+              android:singleLine="true"
+              android:maxLength="255"
+              android:scrollbars="vertical"
+              android:gravity="top|left"
+              android:visibility="invisible"
+              />
+    	<!-- android:layout_height="wrap_content"  -->
+    </LinearLayout>
+  
+    
+
+               <!--  AGREGADO DATOS TITULAR -->
+<View                                     
+			   android:layout_width="fill_parent"
+			   android:layout_height="2dp"
+			   android:layout_marginBottom="@dimen/device_actas_view_divisor_margin_bottom"     
+			   android:background="#C0C0C0"/>  
+	 <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/ColorPnlTitularVehiculo"
+            android:padding="@dimen/device_actas_panel_padding"> 		   
+                 
+	     
+	     
+	     
+ 	        <TextView
+                android:id="@+id/TextView_Titular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TITULAR"
+                android:textSize="@dimen/subtitle_text_size"
+                android:textStyle="bold"></TextView>
+ 
+ 	        <CheckBox
+        		android:id="@+id/CheckBox_SinTitular"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:text="@string/create_acta_chk_sin_titular" />
+ 	         
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" 
+                    android:id="@+id/Layout_Titular">
+ 	        
+            <!-- Tipo de Documento  -->
+             <TextView
+                android:id="@+id/TextView_TipoDocumentoTitular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/settings_tipodocumento"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>
+            <Spinner
+                android:id="@+id/Spinner_TipoDocumentoTitular"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                style="@android:style/Widget.Spinner"
+                android:prompt="@string/create_acta_seltipodocumento"
+                 
+                ></Spinner>
+            <!-- android:entries="@array/tiposdedocumento" -->
+            <!-- Sexo -->
+
+              <TextView
+                android:id="@+id/TextView_SexoTitular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/settings_sexo"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"
+                android:visibility="gone"></TextView>
+
+            <Spinner
+                android:id="@+id/Spinner_SexoTitular"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                style="@android:style/Widget.Spinner"
+                android:prompt="@string/create_acta_selsexo"
+ 				android:visibility="gone"               
+                ></Spinner>             
+            
+            <TextView
+                android:id="@+id/TextView_DocumentoTitular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/settings_documento"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>
+    <LinearLayout android:layout_width="match_parent"
+    			  android:id="@+id/linearLayoutDocumentoTitular" 
+    			  android:layout_height="wrap_content">
+
+		<EditText
+			android:id="@+id/EditText_NumeroDocumentoTitular"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:hint="@string/create_acta_ingresedocumento"
+			android:inputType="number|text"
+			android:maxLines="1"></EditText>
+        <Button   android:id="@+id/Button_VerificarDocumentoTitular" 
+            	  android:layout_height="wrap_content"
+            	  android:layout_width="wrap_content" 
+            	  android:text="@string/create_acta_verificardocumento" />
+    </LinearLayout>
+            
+
+
+            
+          
+            
+            <!-- Apellido -->
+            <TextView
+                android:id="@+id/TextView_ApellidoTitular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_acta_apellido"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>
+            <EditText
+                android:id="@+id/EditText_ApellidoTitular"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:maxLines="1"
+                android:inputType="text"
+                style="@android:style/Widget.EditText" 
+                ></EditText>
+            
+            <!-- Nombre-->
+            <TextView
+                android:id="@+id/TextView_NombreTitular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_acta_nombre"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>
+            <EditText
+                android:id="@+id/EditText_NombreTitular"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:maxLines="1"
+                android:inputType="text"
+                style="@android:style/Widget.EditText" 
+                ></EditText>
+               
+             
+          <LinearLayout
+                	android:id="@+id/LayoutCalleTitular"
+                	android:orientation="vertical"
+                	android:layout_height="wrap_content"
+                	android:layout_width="match_parent">
+            <!-- Domicilio Calle-->
+            <TextView
+                android:id="@+id/TextView_DomicilioTitular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_acta_calle"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>
+            <CheckBox
+        			android:id="@+id/CheckBox_CallePublicaTitular"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"
+        			android:text="@string/create_acta_chk_callepublica" 
+        			android:visibility="gone"
+        			/>
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" 
+                    android:id="@+id/Layout_CallePublicaTitular">
+            <EditText
+                android:id="@+id/EditText_CalleTitular"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:maxLines="1"
+                android:inputType="text"
+                style="@android:style/Widget.EditText" 
+                >
+            </EditText></LinearLayout>
+            <TextView
+                android:id="@+id/TextView_AlturaTitular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_acta_altura"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView> 
+            <CheckBox
+        			android:id="@+id/CheckBox_AlturaSinNumeroTitular"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"
+        			android:text="@string/create_acta_chk_altura" />
+               <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" 
+                    android:id="@+id/Layout_AlturaSinNumeroTitular"> 	
+                	<!-- TEXT VIEW LABEL ALTURA -->
+                <EditText
+                android:id="@+id/EditText_AlturaTitular"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:inputType="number"
+                android:maxLength="10"
+                style="@android:style/Widget.EditText" 
+                ></EditText> 
+				</LinearLayout>
+                	
+                </LinearLayout>
+            
+                 <TextView
+                android:id="@+id/TextView_PisoTitular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/settings_piso"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>
+                <EditText
+                android:id="@+id/EditText_PisoTitular"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:maxLines="1"
+                android:inputType="text"
+                style="@android:style/Widget.EditText" 
+                ></EditText>
+                 
+                 <TextView
+                android:id="@+id/TextView_DepartamentoTitular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/settings_departamentodomicilio"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>     
+                <EditText
+                android:id="@+id/EditText_DepartamentoTitular"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:maxLines="1"
+                android:inputType="text"
+                style="@android:style/Widget.EditText" 
+                ></EditText>     
+                
+            <TextView
+                android:id="@+id/TextView_BarrioTitular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/settings_barrio"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>
+                <EditText
+                android:id="@+id/EditText_BarrioTitular"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:maxLines="1"
+                android:inputType="text"
+                style="@android:style/Widget.EditText" 
+                ></EditText>
+                 
+                                  
+          <!--  aqui faltan los datos demograficos de la persona -->
+          
+          <!--  datos demograficos del documento de la persona -->
+          <!-- Pais Provincia Departamento Localidad Licencia -->
+           <!-- PAIS -->
+            <TextView
+                android:id="@+id/TextView_PaisDocumentoTitular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_acta_pais"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>
+           <Spinner
+                android:id="@+id/Spinner_PaisDocumentoTitular"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                style="@android:style/Widget.Spinner"
+                android:prompt="@string/create_acta_selpais"
+                
+                ></Spinner>
+           <!--   -->
+           <EditText
+               android:id="@+id/EditText_PaisDocumentoTitular"
+               android:layout_height="wrap_content"
+               android:layout_width="match_parent"
+               android:inputType="text"
+               android:visibility="gone"
+               />
+           <!-- PROVINCIA -->
+            <TextView
+                android:id="@+id/TextView_ProvinciaDocumentoTitular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_acta_provincia"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>
+           <Spinner
+                android:id="@+id/Spinner_ProvinciaDocumentoTitular"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                style="@android:style/Widget.Spinner"
+                android:prompt="@string/create_acta_selprovincia"
+                
+                ></Spinner>
+           <!--  -->
+            <EditText
+               android:id="@+id/EditText_ProvinciaDocumentoTitular"
+               android:layout_height="wrap_content"
+               android:layout_width="match_parent"
+               android:inputType="text"
+               
+               />
+           
+           <!-- DEPARTAMENTO -->
+            <TextView
+                android:id="@+id/TextView_DepartamentoDocumentoTitular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_acta_departamento"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>
+           <Spinner
+                android:id="@+id/Spinner_DepartamentoDocumentoTitular"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                style="@android:style/Widget.Spinner"
+                android:prompt="@string/create_acta_seldepartamento"
+                ></Spinner>
+           <!--  -->           
+            <EditText
+               android:id="@+id/EditText_DepartamentoDocumentoTitular"
+               android:layout_height="wrap_content"
+               android:layout_width="match_parent"
+               android:inputType="text"
+               
+               />
+           
+            <!-- LOCALIDAD-->
+            <TextView
+                android:id="@+id/TextView_LocalidadtoDocumentoTitular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_acta_localidad"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>
+           <Spinner
+                android:id="@+id/Spinner_LocalidadDocumentoTitular"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                style="@android:style/Widget.Spinner"
+                android:prompt="@string/create_acta_sellocalidad"
+                
+                ></Spinner>     
+                <!--  -->
+            <EditText
+               android:id="@+id/EditText_LocalidadDocumentoTitular"
+               android:layout_height="wrap_content"
+               android:layout_width="match_parent"
+               android:inputType="text"
+               />
+          
+            <!-- Codigo Postal -->
+      	<TextView
+                android:id="@+id/TextView_CodigoPostalTitular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_acta_codigopostal"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>         
+          <EditText
+               android:id="@+id/EditText_CodigoPostalTitular"
+               android:layout_height="wrap_content"
+               android:layout_width="match_parent"
+               android:inputType="text"
+               
+               />
+          
+          
+          </LinearLayout>
+          
+    </LinearLayout>     
+    
+	 
+	 <!--  FIN AGREGADO DATOS TITULAR -->
+               
+                          <View                                     
+			   android:layout_width="fill_parent"
+			   android:layout_height="2dp"
+			   android:layout_marginBottom="@dimen/device_actas_view_divisor_margin_bottom"     
+			   android:background="#C0C0C0"/>  
+ 
+<!-- LICENCIA DE CONDUCIR  -->
+           <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/ColorPnlLicencia"
+            android:padding="@dimen/device_actas_panel_padding"> 
+                        
+         <TextView
+                android:id="@+id/TextView_Licencia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LICENCIA DEL CONDUCTOR"
+                android:textSize="@dimen/subtitle_text_size"
+                android:textStyle="bold"></TextView>
+    
+            <CheckBox
+        		android:id="@+id/CheckBox_NoTieneLicencia"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:text="@string/create_acta_chk_noposeelicencia" />
+             
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" 
+                    android:id="@+id/Layout_Licencia">
+ 			<CheckBox
+        		android:id="@+id/CheckBox_LicenciaRetenida"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:text="@string/create_acta_chk_licencia_retenida" />
+<LinearLayout android:layout_width="match_parent"
+    			  android:id="@+id/linearLayoutCodigoQR" 
+    			  android:layout_height="wrap_content"> 			
+ 			<CheckBox
+        		android:id="@+id/CheckBox_LicenciaUnicaProvincial"
+        		android:layout_weight="1"
+        		android:layout_width="0dp"
+        		android:layout_height="wrap_content"
+        		android:text="@string/create_acta_chk_licencia_unica_provincial" />
+ 			 <Button   android:id="@+id/Button_VerificarCodigoQR" 
+            	  android:layout_height="wrap_content"
+            	  android:layout_width="wrap_content" 
+            	  android:text="@string/create_acta_verificarcodigoqr" 
+            	  android:visibility="gone"/>
+ 			
+</LinearLayout> 			
+ 			  <TextView
+                android:id="@+id/scan_result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>
+
+			<!-- NUMERO LICENCIA-->
+            <TextView
+                android:id="@+id/TextView_NumeroLicencia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_acta_nrolicencia"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>
+    <LinearLayout android:layout_width="match_parent"
+    			  android:id="@+id/linearLayout1" 
+    			  android:layout_height="wrap_content">
+            <EditText android:layout_weight="1"
+                android:id="@+id/EditText_NumeroLicencia"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:inputType="text"
+                android:maxLines="1"
+                android:maxLength="10"
+                android:hint="@string/create_acta_ingreselicencia"
+                ></EditText>            
+        <Button   android:id="@+id/Button_VerificarLicencia" 
+            	  android:layout_height="wrap_content"
+            	  android:layout_width="wrap_content" 
+            	  android:text="@string/create_acta_verificarlicencia" 
+            	  android:visibility="visible"/>
+    </LinearLayout>
+
+
+			<!-- CLASE LICENCIA-->
+            <TextView
+                android:id="@+id/TextView_ClaseLicencia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_acta_claselicencia"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>
+            <EditText
+                android:id="@+id/EditText_ClaseLicencia"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:maxLines="1"
+				android:inputType="text"
+				
+                ></EditText>            
+
+            
+
+           
+            <LinearLayout
+                android:id="@+id/LayoutFechaVencimiento"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+                <Button
+                    android:id="@+id/Button_FechaVencimiento"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/settings_button_fechavencimientolicencia"
+                    android:onClick="onPickExpireDateButtonClick"></Button>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/textview_with_data2_text_size"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:inputType="none"
+                    android:focusable="false"
+                    android:id="@+id/EditText_FVL_Info"></EditText>
+            </LinearLayout>
+            
+            
+           <!-- Pais Provincia Departamento Localidad Licencia -->
+           <!-- PAIS -->
+            <TextView
+                android:id="@+id/TextView_PaisLicencia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_acta_pais"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>
+           <Spinner
+                android:id="@+id/Spinner_PaisLicencia"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                style="@android:style/Widget.Spinner"
+                android:prompt="@string/create_acta_selpais"
+                
+                ></Spinner>
+           <!--   -->
+           <EditText
+               android:id="@+id/EditText_PaisLicencia"
+               android:layout_height="wrap_content"
+               android:layout_width="match_parent"
+               android:inputType="text"
+               android:visibility="gone"
+               />
+           <!-- PROVINCIA -->
+            <TextView
+                android:id="@+id/TextView_ProvinciaLicencia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_acta_provincia"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>
+           <Spinner
+                android:id="@+id/Spinner_ProvinciaLicencia"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                style="@android:style/Widget.Spinner"
+                android:prompt="@string/create_acta_selprovincia"
+                
+                ></Spinner>
+           <!--  -->
+            <EditText
+               android:id="@+id/EditText_ProvinciaLicencia"
+               android:layout_height="wrap_content"
+               android:layout_width="match_parent"
+               android:inputType="text"
+               
+               />
+           
+           <!-- DEPARTAMENTO -->
+            <TextView
+                android:id="@+id/TextView_DepartamentoLicencia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_acta_departamento"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"
+                android:visibility="gone" ></TextView>
+           <Spinner
+                android:id="@+id/Spinner_DepartamentoLicencia"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                style="@android:style/Widget.Spinner"
+                android:prompt="@string/create_acta_seldepartamento"
+                android:visibility="gone"
+                ></Spinner>
+           <!--  -->           
+            <EditText
+               android:id="@+id/EditText_DepartamentoLicencia"
+               android:layout_height="wrap_content"
+               android:layout_width="match_parent"
+               android:inputType="text"
+               android:visibility="gone"
+               />
+           
+            <!-- LOCALIDAD-->
+            <TextView
+                android:id="@+id/TextView_LocalidadtoLicencia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_acta_localidad"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"
+                android:visibility="gone"
+                ></TextView>
+           <Spinner
+                android:id="@+id/Spinner_LocalidadLicencia"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                style="@android:style/Widget.Spinner"
+                android:prompt="@string/create_acta_sellocalidad"
+                android:visibility="gone"
+                ></Spinner>     
+                <!--  -->
+            <EditText
+               android:id="@+id/EditText_LocalidadLicencia"
+               android:layout_height="wrap_content"
+               android:layout_width="match_parent"
+               android:inputType="text"
+               android:visibility="gone"
+               />
+  
+            </LinearLayout>
+</LinearLayout>           
+            
+            
+                 <View                                     
+			   android:layout_width="fill_parent"
+			   android:layout_height="2dp"
+			   android:layout_marginBottom="@dimen/device_actas_view_divisor_margin_bottom"     
+			   android:background="#C0C0C0"/>  
+	 <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/ColorPnlConductor"
+            android:padding="@dimen/device_actas_panel_padding"> 		   
+
+	        <TextView
+                android:id="@+id/TextView_Conductor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CONDUCTOR"
+                android:textSize="@dimen/subtitle_text_size"
+                android:textStyle="bold"></TextView>
+	        
+	         <CheckBox
+        		android:id="@+id/CheckBox_SinConductor"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:text="@string/create_acta_chk_sin_conductor" />
+       <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" 
+       android:id="@+id/Layout_Conductor">  
+       		
+       		<!-- Copiar datos del Titular -->
+          <LinearLayout android:layout_width="match_parent"
+    			  android:id="@+id/linearLayoutCopiarDatosTitular" 
+    			  android:layout_height="wrap_content">
+            	<TextView android:layout_weight="1"
+                android:id="@+id/TextView_CopiarDatosTitular"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                
+                ></TextView>            
+        		<Button   android:id="@+id/Button_CopiarDatosTitular" 
+            	  android:layout_height="wrap_content"
+            	  android:layout_width="wrap_content" 
+            	  android:text="@string/create_acta_copiardatostitular" />
+    	</LinearLayout> 
+           
+            <!-- Tipo de Documento  -->
+             <TextView
+                android:id="@+id/TextView_TipoDocumento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/settings_tipodocumento"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>
+            <Spinner
+                android:id="@+id/Spinner_TipoDocumento"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                style="@android:style/Widget.Spinner"
+                android:prompt="@string/create_acta_seltipodocumento"
+                 
+                ></Spinner>
+            <!-- android:entries="@array/tiposdedocumento" -->
+            <!-- Sexo -->
+
+              <TextView
+                android:id="@+id/TextView_Sexo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/settings_sexo"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"
+                android:visibility="gone"></TextView>
+
+            <Spinner
+                android:id="@+id/Spinner_Sexo"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                style="@android:style/Widget.Spinner"
+                android:prompt="@string/create_acta_selsexo"
+                android:visibility="gone"
+                
+                ></Spinner>             
+            
+            <TextView
+                android:id="@+id/TextView_Documento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/settings_documento"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>
+    <LinearLayout android:layout_width="match_parent"
+    			  android:id="@+id/linearLayoutDocumento" 
+    			  android:layout_height="wrap_content">
+            <EditText android:layout_weight="1"
+                android:id="@+id/EditText_NumeroDocumento"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:inputType="text"
+                android:maxLines="1"
+                android:hint="@string/create_acta_ingresedocumento"
+                ></EditText>            
+        <Button   android:id="@+id/Button_VerificarDocumento" 
+            	  android:layout_height="wrap_content"
+            	  android:layout_width="wrap_content" 
+            	  android:text="@string/create_acta_verificardocumento" />
+    </LinearLayout>
+            
+<!-- 		<RelativeLayout android:layout_width="match_parent" -->
+<!--     			    android:id="@+id/relativeLayoutDocumento"  -->
+<!--     			    android:layout_height="wrap_content"> -->
+<!--         	<Button android:id="@+id/Button_VerificarDocumento"  -->
+<!--             	android:layout_width="wrap_content" -->
+<!--             	android:layout_height="wrap_content"  -->
+<!--             	android:text="@string/create_acta_verificardocumento" -->
+<!--             	android:layout_alignParentTop="true"  -->
+<!--             	android:layout_alignParentRight="true" /> -->
+<!--            <EditText android:id="@+id/EditText_NumeroDocumento"  -->
+<!--             	android:layout_height="wrap_content" -->
+<!--             	android:layout_alignParentTop="true"  -->
+<!--             	android:layout_width="match_parent" -->
+<!--             	android:layout_toLeftOf="@+id/Button_VerificarDocumento"  -->
+<!--             	android:hint="@string/create_acta_ingresedocumento"> -->
+<!--         </EditText> -->
+<!--     </RelativeLayout>                 -->
+
+            <LinearLayout
+                android:id="@+id/LayoutFechaNacimiento"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+                <Button
+                    android:id="@+id/Button_FechaNacimiento"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/settings_button_fechanacimiento"
+                    android:onClick="onPickBornDateButtonClick"
+                    android:visibility="gone"
+                    ></Button>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/textview_with_data_text_size"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:id="@+id/TextView_FN_Info"
+                    android:visibility="gone"   ></TextView>
+            </LinearLayout>            
+          
+            
+            <!-- Apellido -->
+            <TextView
+                android:id="@+id/TextView_Apellido"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_acta_apellido"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>
+            <EditText
+                android:id="@+id/EditText_Apellido"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:maxLines="1"
+                android:inputType="text"
+                style="@android:style/Widget.EditText" 
+                ></EditText>
+            
+            <!-- Nombre-->
+            <TextView
+                android:id="@+id/TextView_Nombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_acta_nombre"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>
+            <EditText
+                android:id="@+id/EditText_Nombre"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:maxLines="1"
+                android:inputType="text"
+                style="@android:style/Widget.EditText" 
+                ></EditText>   
+                          
+       <!-- Telefono -->
+            <TextView
+                android:id="@+id/TextView_TelefonoConductor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_acta_telefonoconductor"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>
+            <EditText
+                android:id="@+id/EditText_TelefonoConductor"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:maxLines="1"
+                android:inputType="text"
+                style="@android:style/Widget.EditText" 
+                ></EditText>              
+      		<!-- Mail-->
+            <TextView
+                android:id="@+id/TextView_EmailConductor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_acta_emailconductor"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>
+            <EditText
+                android:id="@+id/EditText_EmailConductor"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:maxLines="1"
+                android:inputType="text"
+                style="@android:style/Widget.EditText" 
+                ></EditText>
+          <LinearLayout
+                	android:id="@+id/LayoutCalle"
+                	android:orientation="vertical"
+                	android:layout_height="wrap_content"
+                	android:layout_width="match_parent">
+            <!-- Domicilio Calle-->
+            <TextView
+                android:id="@+id/TextView_Domicilio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_acta_calle"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>
+            <CheckBox
+        			android:id="@+id/CheckBox_CallePublica"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"
+        			android:text="@string/create_acta_chk_callepublica"
+        			android:visibility="gone" />
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" 
+                    android:id="@+id/Layout_CallePublica">
+            <EditText
+                android:id="@+id/EditText_Calle"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:maxLines="1"
+                android:inputType="text"
+                style="@android:style/Widget.EditText" 
+                >
+            </EditText></LinearLayout>
+            <TextView
+                android:id="@+id/TextView_Altura"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_acta_altura"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView> 
+            <CheckBox
+        			android:id="@+id/CheckBox_AlturaSinNumero"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"
+        			android:text="@string/create_acta_chk_altura" />
+               <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" 
+                    android:id="@+id/Layout_AlturaSinNumero"> 	
+                	<!-- TEXT VIEW LABEL ALTURA -->
+                <EditText
+                android:id="@+id/EditText_Altura"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:inputType="number"
+                android:maxLength="10"
+                style="@android:style/Widget.EditText" 
+                ></EditText> 
+				</LinearLayout>
+                	
+                </LinearLayout>
+            
+                 <TextView
+                android:id="@+id/TextView_Piso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/settings_piso"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>
+                <EditText
+                android:id="@+id/EditText_Piso"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:maxLines="1"
+                android:inputType="text"
+                style="@android:style/Widget.EditText" 
+                ></EditText>
+                 
+                 <TextView
+                android:id="@+id/TextView_Departamento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/settings_departamentodomicilio"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>     
+                <EditText
+                android:id="@+id/EditText_Departamento"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:maxLines="1"
+                android:inputType="text"
+                style="@android:style/Widget.EditText" 
+                ></EditText>     
+                
+            <TextView
+                android:id="@+id/TextView_Barrio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/settings_barrio"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>
+                <EditText
+                android:id="@+id/EditText_Barrio"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:maxLines="1"
+                android:inputType="text"
+                style="@android:style/Widget.EditText" 
+                ></EditText>
+                 
+                                  
+          <!--  aqui faltan los datos demograficos de la persona -->
+          
+          <!--  datos demograficos del documento de la persona -->
+          <!-- Pais Provincia Departamento Localidad Licencia -->
+           <!-- PAIS -->
+            <TextView
+                android:id="@+id/TextView_PaisDocumento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_acta_pais"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>
+           <Spinner
+                android:id="@+id/Spinner_PaisDocumento"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                style="@android:style/Widget.Spinner"
+                android:prompt="@string/create_acta_selpais"
+                
+                ></Spinner>
+           <!--   -->
+           <EditText
+               android:id="@+id/EditText_PaisDocumento"
+               android:layout_height="wrap_content"
+               android:layout_width="match_parent"
+               android:inputType="text"
+               android:visibility="gone"
+               />
+           <!-- PROVINCIA -->
+            <TextView
+                android:id="@+id/TextView_ProvinciaDocumento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_acta_provincia"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>
+           <Spinner
+                android:id="@+id/Spinner_ProvinciaDocumento"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                style="@android:style/Widget.Spinner"
+                android:prompt="@string/create_acta_selprovincia"
+                
+                ></Spinner>
+           <!--  -->
+            <EditText
+               android:id="@+id/EditText_ProvinciaDocumento"
+               android:layout_height="wrap_content"
+               android:layout_width="match_parent"
+               android:inputType="text"
+               
+               />
+           
+           <!-- DEPARTAMENTO -->
+            <TextView
+                android:id="@+id/TextView_DepartamentoDocumento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_acta_departamento"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>
+           <Spinner
+                android:id="@+id/Spinner_DepartamentoDocumento"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                style="@android:style/Widget.Spinner"
+                android:prompt="@string/create_acta_seldepartamento"
+                ></Spinner>
+           <!--  -->           
+            <EditText
+               android:id="@+id/EditText_DepartamentoDocumento"
+               android:layout_height="wrap_content"
+               android:layout_width="match_parent"
+               android:inputType="text"
+               
+               />
+           
+            <!-- LOCALIDAD-->
+            <TextView
+                android:id="@+id/TextView_LocalidadtoDocumento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_acta_localidad"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>
+           <Spinner
+                android:id="@+id/Spinner_LocalidadDocumento"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                style="@android:style/Widget.Spinner"
+                android:prompt="@string/create_acta_sellocalidad"
+                
+                ></Spinner>     
+                <!--  -->
+            <EditText
+               android:id="@+id/EditText_LocalidadDocumento"
+               android:layout_height="wrap_content"
+               android:layout_width="match_parent"
+               android:inputType="text"
+               />
+          
+            <!-- Codigo Postal -->
+      	<TextView
+                android:id="@+id/TextView_CodigoPostal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_acta_codigopostal"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>         
+          <EditText
+               android:id="@+id/EditText_CodigoPostal"
+               android:layout_height="wrap_content"
+               android:layout_width="match_parent"
+               android:inputType="text"
+               
+               />
+           </LinearLayout> 
+    </LinearLayout>      
+	 
+	 <!-- AGREGAD DATOS DEL TESTIGO -->
+	 
+<View                                     
+			   android:layout_width="fill_parent"
+			   android:layout_height="2dp"
+			   android:layout_marginBottom="@dimen/device_actas_view_divisor_margin_bottom"     
+			   android:background="#C0C0C0"/>  
+	 <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/ColorPnlTestigoVehiculo"
+            android:padding="@dimen/device_actas_panel_padding"> 		   
+                 
+	     
+	     
+	     
+ 	        <TextView
+                android:id="@+id/TextView_Testigo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TESTIGO"
+                android:textSize="@dimen/subtitle_text_size"
+                android:textStyle="bold"></TextView>
+ 
+ 	        
+ 	        <!-- 
+ 	       <CheckBox
+        		android:id="@+id/CheckBox_ConductorTestigo"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:text="@string/create_acta_chk_conductor_titular" />
+             -->
+         <CheckBox
+             android:id="@+id/CheckBox_SinTestigo"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/create_acta_chk_sin_testigo" />
+             
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" 
+                    android:id="@+id/Layout_Testigo">
+ 	        
+            <!-- Tipo de Documento  -->
+             <TextView
+                android:id="@+id/TextView_TipoDocumentoTestigo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/settings_tipodocumento"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>
+            <Spinner
+                android:id="@+id/Spinner_TipoDocumentoTestigo"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                style="@android:style/Widget.Spinner"
+                android:prompt="@string/create_acta_seltipodocumento"
+                 
+                ></Spinner>
+            <!-- android:entries="@array/tiposdedocumento" -->
+            <!-- Sexo -->
+
+              <TextView
+                android:id="@+id/TextView_SexoTestigo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/settings_sexo"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"
+                android:visibility="gone"></TextView>
+
+            <Spinner
+                android:id="@+id/Spinner_SexoTestigo"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                style="@android:style/Widget.Spinner"
+                android:prompt="@string/create_acta_selsexo"
+                android:visibility="gone"
+                ></Spinner>             
+            
+            <TextView
+                android:id="@+id/TextView_DocumentoTestigo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/settings_documento"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>
+    <LinearLayout android:layout_width="match_parent"
+    			  android:id="@+id/linearLayoutDocumentoTestigo" 
+    			  android:layout_height="wrap_content">
+            <EditText android:layout_weight="1"
+                android:id="@+id/EditText_NumeroDocumentoTestigo"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:inputType="text"
+                android:maxLines="1"
+                android:hint="@string/create_acta_ingresedocumento"
+                ></EditText>            
+        <Button   android:id="@+id/Button_VerificarDocumentoTestigo" 
+            	  android:layout_height="wrap_content"
+            	  android:layout_width="wrap_content" 
+            	  android:text="@string/create_acta_verificardocumento" />
+        <ImageButton
+                    android:id="@+id/ImageButton_VerificarDominio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/gorrocaminera"
+                    android:adjustViewBounds="true"
+                    android:tag="LICENCIA"
+                    android:scaleType="fitXY"
+                    android:layout_gravity="center_vertical"
+                    android:contentDescription="@string/create_acta_descripcion_imagen_foto_licencia"
+                    android:onClick="onLaunchCamera"
+                    android:visibility="gone"
+                    ></ImageButton>
+                    <!--android:maxHeight="@dimen/imagen_fotos_acta_size_height"
+                    android:minHeight="@dimen/imagen_fotos_acta_size_height"
+                    android:maxWidth="@dimen/imagen_fotos_acta_size_width"
+                    android:minWidth="@dimen/imagen_fotos_acta_size_width"-->
+    </LinearLayout>
+            
+
+
+            
+          
+            
+            <!-- Apellido -->
+            <TextView
+                android:id="@+id/TextView_ApellidoTestigo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_acta_apellido"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>
+            <EditText
+                android:id="@+id/EditText_ApellidoTestigo"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:maxLines="1"
+                android:inputType="text"
+                style="@android:style/Widget.EditText" 
+                ></EditText>
+            
+            <!-- Nombre-->
+            <TextView
+                android:id="@+id/TextView_NombreTestigo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_acta_nombre"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>
+            <EditText
+                android:id="@+id/EditText_NombreTestigo"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:maxLines="1"
+                android:inputType="text"
+                style="@android:style/Widget.EditText" 
+                ></EditText>   
+                          
+       
+          <LinearLayout
+                	android:id="@+id/LayoutCalleTestigo"
+                	android:orientation="vertical"
+                	android:layout_height="wrap_content"
+                	android:layout_width="match_parent">
+            <!-- Domicilio Calle-->
+            <TextView
+                android:id="@+id/TextView_DomicilioTestigo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_acta_calle"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>
+            <CheckBox
+        			android:id="@+id/CheckBox_CallePublicaTestigo"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"
+        			android:text="@string/create_acta_chk_callepublica" 
+        			android:visibility="gone"
+        			/>
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" 
+                    android:id="@+id/Layout_CallePublicaTestigo">
+            <EditText
+                android:id="@+id/EditText_CalleTestigo"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:maxLines="1"
+                android:inputType="text"
+                style="@android:style/Widget.EditText" 
+                >
+            </EditText></LinearLayout>
+            <TextView
+                android:id="@+id/TextView_AlturaTestigo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_acta_altura"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView> 
+            <CheckBox
+        			android:id="@+id/CheckBox_AlturaSinNumeroTestigo"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"
+        			android:text="@string/create_acta_chk_altura" />
+               <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" 
+                    android:id="@+id/Layout_AlturaSinNumeroTestigo"> 	
+                	<!-- TEXT VIEW LABEL ALTURA -->
+                <EditText
+                android:id="@+id/EditText_AlturaTestigo"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:inputType="number"
+                android:maxLength="10"
+                style="@android:style/Widget.EditText" 
+                ></EditText> 
+				</LinearLayout>
+                	
+                </LinearLayout>
+            
+                 <TextView
+                android:id="@+id/TextView_PisoTestigo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/settings_piso"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>
+                <EditText
+                android:id="@+id/EditText_PisoTestigo"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:maxLines="1"
+                android:inputType="text"
+                style="@android:style/Widget.EditText" 
+                ></EditText>
+                 
+                 <TextView
+                android:id="@+id/TextView_DepartamentoTestigo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/settings_departamentodomicilio"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>     
+                <EditText
+                android:id="@+id/EditText_DepartamentoTestigo"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:maxLines="1"
+                android:inputType="text"
+                style="@android:style/Widget.EditText" 
+                ></EditText>     
+                
+            <TextView
+                android:id="@+id/TextView_BarrioTestigo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/settings_barrio"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>
+                <EditText
+                android:id="@+id/EditText_BarrioTestigo"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:maxLines="1"
+                android:inputType="text"
+                style="@android:style/Widget.EditText" 
+                ></EditText>
+                 
+                                  
+          <!--  aqui faltan los datos demograficos de la persona -->
+          
+          <!--  datos demograficos del documento de la persona -->
+          <!-- Pais Provincia Departamento Localidad Licencia -->
+           <!-- PAIS -->
+            <TextView
+                android:id="@+id/TextView_PaisDocumentoTestigo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_acta_pais"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>
+           <Spinner
+                android:id="@+id/Spinner_PaisDocumentoTestigo"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                style="@android:style/Widget.Spinner"
+                android:prompt="@string/create_acta_selpais"
+                
+                ></Spinner>
+           <!--   -->
+           <EditText
+               android:id="@+id/EditText_PaisDocumentoTestigo"
+               android:layout_height="wrap_content"
+               android:layout_width="match_parent"
+               android:inputType="text"
+               android:visibility="gone"
+               />
+           <!-- PROVINCIA -->
+            <TextView
+                android:id="@+id/TextView_ProvinciaDocumentoTestigo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_acta_provincia"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>
+           <Spinner
+                android:id="@+id/Spinner_ProvinciaDocumentoTestigo"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                style="@android:style/Widget.Spinner"
+                android:prompt="@string/create_acta_selprovincia"
+                
+                ></Spinner>
+           <!--  -->
+            <EditText
+               android:id="@+id/EditText_ProvinciaDocumentoTestigo"
+               android:layout_height="wrap_content"
+               android:layout_width="match_parent"
+               android:inputType="text"
+               
+               />
+           
+           <!-- DEPARTAMENTO -->
+            <TextView
+                android:id="@+id/TextView_DepartamentoDocumentoTestigo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_acta_departamento"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>
+           <Spinner
+                android:id="@+id/Spinner_DepartamentoDocumentoTestigo"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                style="@android:style/Widget.Spinner"
+                android:prompt="@string/create_acta_seldepartamento"
+                ></Spinner>
+           <!--  -->           
+            <EditText
+               android:id="@+id/EditText_DepartamentoDocumentoTestigo"
+               android:layout_height="wrap_content"
+               android:layout_width="match_parent"
+               android:inputType="text"
+               
+               />
+           
+            <!-- LOCALIDAD-->
+            <TextView
+                android:id="@+id/TextView_LocalidadtoDocumentoTestigo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_acta_localidad"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>
+           <Spinner
+                android:id="@+id/Spinner_LocalidadDocumentoTestigo"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                style="@android:style/Widget.Spinner"
+                android:prompt="@string/create_acta_sellocalidad"
+                
+                ></Spinner>     
+                <!--  -->
+            <EditText
+               android:id="@+id/EditText_LocalidadDocumentoTestigo"
+               android:layout_height="wrap_content"
+               android:layout_width="match_parent"
+               android:inputType="text"
+               />
+          
+            <!-- Codigo Postal -->
+      	<TextView
+                android:id="@+id/TextView_CodigoPostalTestigo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_acta_codigopostal"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>         
+          <EditText
+               android:id="@+id/EditText_CodigoPostalTestigo"
+               android:layout_height="wrap_content"
+               android:layout_width="match_parent"
+               android:inputType="text"
+               
+               />
+          
+          
+    	<!-- Observaciones -->
+            <TextView
+                android:id="@+id/TextView_Manifestacion_Testigo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_acta_manifestacion_testigo"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>	
+    <!-- An EditText with height to display 3 lines of text -->
+    <EditText android:id="@+id/EditText_ManifestacionTestigo" 
+              android:layout_width="match_parent" 
+              android:layout_height="wrap_content" 
+              android:inputType="text"
+              android:text="" 
+              android:singleLine="true"
+              android:maxLength="255"
+              android:scrollbars="vertical"
+              android:gravity="top|left"
+              />
+          </LinearLayout>
+	<!-- Falta la manifestacion del testigo  -->
+	          
+    </LinearLayout>     
+ 	 <!-- FIN AGREGADO DATOS DEK TESTIGO -->           
+     <View                                     
+			   android:layout_width="fill_parent"
+			   android:layout_height="2dp"
+			   android:layout_marginBottom="@dimen/device_actas_view_divisor_margin_bottom"     
+			   android:background="#C0C0C0"/>        
+			   
+
+			   
+ <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/ColorPnlFotos"
+            android:padding="@dimen/device_actas_panel_padding">               
+           <!-- Fotos -->
+            
+            <TextView
+                android:id="@+id/TextView_Fotos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_acta_fotos"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>
+            
+            
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="fill">
+                    <TextView
+                        android:id="@+id/TextView_Foto_Licencia"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/create_acta_label_foto_licencia"
+                        android:textSize="@dimen/help_text_size"
+                        android:textStyle="bold"></TextView>        	
+                <ImageButton
+                    android:id="@+id/ImageButton_Licencia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/sinfoto"
+                    android:adjustViewBounds="true"
+                    android:tag="LICENCIA"
+                    android:maxHeight="@dimen/imagen_fotos_acta_size_height"
+                    android:minHeight="@dimen/imagen_fotos_acta_size_height"
+                    android:maxWidth="@dimen/imagen_fotos_acta_size_width"
+                    android:minWidth="@dimen/imagen_fotos_acta_size_width"
+                    
+                    android:scaleType="fitXY"
+                    android:layout_gravity="center_vertical"
+                    android:contentDescription="@string/create_acta_descripcion_imagen_foto_licencia"
+                    android:onClick="onLaunchCamera"></ImageButton>
+<!--                 <LinearLayout -->
+<!--                     android:orientation="vertical" -->
+<!--                     android:layout_width="match_parent" -->
+<!--                     android:layout_height="wrap_content"> -->
+
+<!--                     <EditText -->
+<!--                         android:id="@+id/EditText_FileName_Licencia" -->
+<!--                         android:layout_height="wrap_content" -->
+<!--                         android:maxLength="20" -->
+<!--                         android:layout_width="match_parent" -->
+<!--                         android:maxLines="1" -->
+<!--                         android:inputType="text" -->
+<!--                         android:focusable="false" -->
+<!--                         ></EditText> -->
+<!--                 </LinearLayout> -->
+            </LinearLayout>
+             <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="fill">
+            <TextView
+                        android:id="@+id/TextView_Foto_Documento"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/create_acta_label_foto_documento"
+                        android:textSize="@dimen/help_text_size"
+                        android:textStyle="bold"></TextView>
+                <ImageButton
+                    android:id="@+id/ImageButton_Documento"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/sinfoto"
+                    android:adjustViewBounds="true"
+                    android:tag="DOCUMENTO"
+                    android:maxHeight="@dimen/imagen_fotos_acta_size_height"
+                    android:minHeight="@dimen/imagen_fotos_acta_size_height"
+                    android:maxWidth="@dimen/imagen_fotos_acta_size_width"
+                    android:minWidth="@dimen/imagen_fotos_acta_size_width"
+                    
+                    android:scaleType="fitXY"
+                    android:layout_gravity="center_vertical"
+                    android:contentDescription="@string/create_acta_descripcion_imagen_foto_licencia"
+                    android:onClick="onLaunchCamera"></ImageButton>
+<!--                 <LinearLayout -->
+<!--                     android:orientation="vertical" -->
+<!--                     android:layout_width="match_parent" -->
+<!--                     android:layout_height="wrap_content"> -->
+
+<!--                     <EditText -->
+<!--                         android:id="@+id/EditText_FileName_Documento" -->
+<!--                         android:layout_height="wrap_content" -->
+<!--                         android:maxLength="20" -->
+<!--                         android:layout_width="match_parent" -->
+<!--                         android:maxLines="1" -->
+<!--                         android:inputType="text" -->
+<!--                         android:focusable="false" -->
+<!--                         ></EditText> -->
+<!--                 </LinearLayout> -->
+            </LinearLayout> 
+            
+<!--             <LinearLayout -->
+<!--                 android:orientation="vertical" -->
+<!--                 android:layout_width="match_parent" -->
+<!--                 android:layout_height="match_parent" -->
+<!--                 android:gravity="fill"> -->
+                
+<!--                 <TextView -->
+<!--                         android:id="@+id/TextView_Foto_Otro" -->
+<!--                         android:layout_width="wrap_content" -->
+<!--                         android:layout_height="wrap_content" -->
+<!--                         android:text="@string/create_acta_label_foto_alternativa" -->
+<!--                         android:textSize="@dimen/help_text_size" -->
+<!--                         android:textStyle="bold"></TextView> -->
+<!--                 <ImageButton -->
+<!--                     android:id="@+id/ImageButton_Otro" -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:src="@drawable/sinfoto" -->
+<!--                     android:adjustViewBounds="true" -->
+<!--                     android:tag="OTRO" -->
+<!--                     android:maxHeight="@dimen/imagen_fotos_acta_size_height" -->
+<!--                     android:minHeight="@dimen/imagen_fotos_acta_size_height" -->
+<!--                     android:maxWidth="@dimen/imagen_fotos_acta_size_width" -->
+<!--                     android:minWidth="@dimen/imagen_fotos_acta_size_width" -->
+                    
+<!--                     android:scaleType="fitXY" -->
+<!--                     android:layout_gravity="center_vertical" -->
+<!--                     android:contentDescription="@string/create_acta_descripcion_imagen_foto_licencia" -->
+<!--                     android:onClick="onLaunchCamera"></ImageButton> -->
+
+<!--             </LinearLayout> -->
+            
+  </LinearLayout>          
+              
+              <View                                     
+			   android:layout_width="fill_parent"
+			   android:layout_height="2dp"
+			   android:layout_marginBottom="@dimen/device_actas_view_divisor_margin_bottom"     
+			   android:background="#C0C0C0"/>   
+			   
+            <LinearLayout  android:orientation="horizontal"
+               	android:layout_width="fill_parent"
+                android:layout_weight="1"
+      			android:layout_height="0dp"
+      			android:padding="@dimen/device_actas_panel_padding">
+            
+		    <Button   android:id="@+id/Button_GrabarActa" 
+            	  android:layout_height="wrap_content"
+            	  android:layout_width="wrap_content" 
+            	  android:text="@string/create_acta_grabar_acta" />
+            <Button   android:id="@+id/Button_CancelarActa" 
+            	  android:layout_height="wrap_content"
+            	  android:layout_width="wrap_content" 
+            	  android:text="@string/create_acta_cancelar_acta" />
+	       </LinearLayout>
+<!--              <LinearLayout -->
+<!--                 android:orientation="horizontal" -->
+<!--                 android:layout_width="match_parent" -->
+<!--                 android:layout_height="match_parent" -->
+<!--                > -->
+            
+<!--             </LinearLayout> -->
+             <!-- <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="fill">
+                <ImageButton
+                    android:id="@+id/ImageButton_Avatar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/avatar"
+                    android:adjustViewBounds="true"
+                    android:maxHeight="@dimen/avatar_size"
+                    android:minHeight="@dimen/avatar_size"
+                    android:scaleType="fitXY"
+                    android:layout_gravity="center_vertical"
+                    android:onClick="onLaunchCamera"></ImageButton>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/TextView_Nickname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/settings_nickname"
+                        android:textSize="@dimen/help_text_size"
+                        android:textStyle="bold"></TextView>
+                    <EditText
+                        android:id="@+id/EditText_Nickname"
+                        android:layout_height="wrap_content"
+                        android:maxLength="20"
+                        android:layout_width="match_parent"
+                        android:maxLines="1"
+                        android:inputType="textPersonName"></EditText>
+                </LinearLayout>
+            </LinearLayout>         -->
+
+            
+<!--             <TextView -->
+<!--                 android:id="@+id/TextView_Password" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:text="@string/settings_password" -->
+<!--                 android:textSize="@dimen/help_text_size" -->
+<!--                 android:textStyle="bold"></TextView> -->
+<!--             <LinearLayout -->
+<!--                 android:id="@+id/LinearLayoutPassword" -->
+<!--                 android:orientation="horizontal" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:layout_width="match_parent"> -->
+<!--                 <Button -->
+<!--                     android:id="@+id/Button_Password" -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:text="@string/settings_button_pwd" -->
+<!--                     android:onClick="onSetPasswordButtonClick"></Button> -->
+<!--                 <TextView -->
+<!--                     android:id="@+id/TextView_Password_Info" -->
+<!--                     android:layout_width="match_parent" -->
+<!--                     android:layout_height="match_parent" -->
+<!--                     android:textSize="@dimen/help_text_size" -->
+<!--                     android:textStyle="bold" -->
+<!--                     android:gravity="center"></TextView> -->
+<!--             </LinearLayout> -->
+<!--             <TextView -->
+<!--                 android:id="@+id/TextView_DOB" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:text="@string/settings_dob" -->
+<!--                 android:textSize="@dimen/help_text_size" -->
+<!--                 android:textStyle="bold"></TextView> -->
+<!--             <LinearLayout -->
+<!--                 android:id="@+id/LinearLayout01" -->
+<!--                 android:orientation="horizontal" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:layout_width="match_parent"> -->
+<!--                 <Button -->
+<!--                     android:id="@+id/Button_DOB" -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:text="@string/settings_button_dob" -->
+<!--                     android:onClick="onPickDateButtonClick"></Button> -->
+<!--                 <TextView -->
+<!--                     android:layout_width="match_parent" -->
+<!--                     android:textSize="@dimen/help_text_size" -->
+<!--                     android:textStyle="bold" -->
+<!--                     android:gravity="center" -->
+<!--                     android:id="@+id/TextView_DOB_Info"></TextView> -->
+<!--             </LinearLayout> -->
+<!--             <TextView -->
+<!--                 android:id="@+id/TextView_Gender" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:text="@string/settings_gender" -->
+<!--                 android:textSize="@dimen/help_text_size" -->
+<!--                 android:textStyle="bold"></TextView> -->
+<!--             <Spinner -->
+<!--                 android:id="@+id/Spinner_Gender" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:layout_width="match_parent" -->
+<!--                 android:entries="@array/genders" -->
+<!--                 style="@android:style/Widget.Spinner" -->
+<!--                 android:prompt="@string/create_acta_selgenero"  -->
+                
+<!--                 ></Spinner> -->
+            <!-- seleccione un lugar -->
+            <!-- <TextView
+                android:id="@+id/TextView_FavoritePlace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"
+                android:text="@string/settings_favoriteplace"></TextView>
+            <LinearLayout
+                android:id="@+id/LinearLayout_FavPlace"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+                <Button
+                    android:id="@+id/Button_FavoritePlace"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/settings_button_favoriteplace"
+                    android:onClick="onPickPlaceButtonClick"></Button>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/help_text_size"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:id="@+id/TextView_FavoritePlace_Info"
+                    android:text="@string/settings_favoriteplace_not_set"></TextView>
+            </LinearLayout> -->
+            <!-- Añadir Amigo -->
+           <!--  <TextView
+                android:id="@+id/TextView_Friend_Email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/settings_friend_email_label"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>
+            <LinearLayout
+                android:id="@+id/LinearLayout_Friend_Email"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+                <Button
+                    android:id="@+id/Button_Friend_Email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/settings_button_friend_email"
+                    android:onClick="onAddFriendButtonClick"></Button>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/help_text_size"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:id="@+id/TextView_Friend_Email_Tip"
+                    android:text="@string/settings_friend_email_tip"></TextView>
+            </LinearLayout> -->
+
+        </LinearLayout>
+    </ScrollView>
+    
+    
+	
+</LinearLayout>

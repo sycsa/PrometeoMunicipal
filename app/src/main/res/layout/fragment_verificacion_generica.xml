@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:componentes="http://schemas.android.com/apk/res/ar.gov.mendoza.deviceactas"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:padding="5dp" >
+ <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:isScrollContainer="true"
+        android:scrollbars="vertical"
+        android:scrollbarAlwaysDrawVerticalTrack="true">
+   <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"> 
+            
+       <TextView
+                android:id="@+id/TextView_LabelBuscarPor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/verificacion_buscar_por"
+                android:textSize="@dimen/help_text_size"
+                android:textStyle="bold"></TextView>
+       <Spinner
+                android:id="@+id/Spinner_TipoBusqueda"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                style="@android:style/Widget.Spinner"
+                android:prompt="@string/verificacion_tipo_busqueda"
+                
+                ></Spinner>
+  <LinearLayout android:layout_width="match_parent"
+    			  android:id="@+id/linearLayoutDocumento" 
+    			  android:layout_height="wrap_content">
+            <EditText android:layout_weight="1"
+                android:id="@+id/EditText_Valor_A_Buscar"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:inputType="text"
+                android:maxLines="1"
+              
+                ></EditText>            
+        <Button   android:id="@+id/Button_BuscarRestricciones" 
+            	  android:layout_height="wrap_content"
+            	  android:layout_width="wrap_content" 
+            	  android:text="@string/verificacion_consultar" />
+    </LinearLayout>
+    <TextView
+     android:id="@+id/TextView_Resultado"
+     android:layout_width="match_parent"
+     android:layout_height="fill_parent"
+     android:singleLine="false"
+     android:inputType="textMultiLine"
+     android:padding="10dp"
+     android:background="#FFFFE0"
+     android:text=""
+     android:textSize="15sp"
+     android:layout_margin="10dp" />
+    
+
+<!--     <WebView  android:id="@+id/WebView_Resultado"  -->
+<!--             	  android:layout_height="match_parent" -->
+<!--             	  android:layout_width="match_parent" > -->
+       
+<!--    </WebView> -->
+   </LinearLayout>
+   
+</ScrollView>    
+  
+</LinearLayout>

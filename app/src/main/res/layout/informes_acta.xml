@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    android:padding="5dp" 
+ 	tools:context="${relativePackage}.${activityClass}"    >
+    
+    
+ <TextView 
+      android:text="Fecha Hora Desde"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+     />
+    <LinearLayout
+                android:id="@+id/LayoutFechaHoraDesde"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">    
+                  <Button
+                    android:id="@+id/Button_FechaDesde"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="14dp"
+    			    android:paddingLeft="14dp"
+				    >
+                    
+                </Button>
+<!--                    style="?android:attr/spinnerStyle" -->
+                <Button
+                    android:id="@+id/Button_HoraDesde"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="4dp"
+    			    android:paddingLeft="4dp"
+
+				    >
+                    
+                </Button>
+               
+  </LinearLayout>
+   <TextView 
+      android:text="Fecha Hora Hasta"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+     />
+   <!-- //style="?android:attr/spinnerStyle" -->
+ <LinearLayout
+                android:id="@+id/LayoutFechaHoraHasta"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">    
+                  <Button
+                    android:id="@+id/Button_FechaHasta"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="14dp"
+    			    android:paddingLeft="14dp"
+				    >
+                    
+                </Button>
+                <Button
+                    android:id="@+id/Button_HoraHasta"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="4dp"
+    			    android:paddingLeft="4dp"
+				>
+                    
+                </Button>
+                <Button
+                    android:id="@+id/Button_Buscar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Buscar"
+                    android:paddingRight="14dp"
+    			    android:paddingLeft="14dp"
+    			    android:focusable="true"
+				>
+                </Button>
+  </LinearLayout>
+ <!-- Datos del Patron de Busqueda -->
+    <TextView  
+		        android:id="@+id/TextView_PatronBusqueda"  
+		        android:layout_width="match_parent"  
+		        android:layout_height="wrap_content"  
+		        android:textSize="15sp"  
+		        android:background="#FFFFE0"  
+		        android:text="@string/searchable_items_sinvalor"
+		        android:padding="10dp"  
+		        android:visibility="gone"
+     />  
+  <ListView
+		android:id="@android:id/android:list"
+ 		android:layout_height="0dip"
+        android:layout_width="match_parent"
+        android:layout_weight="1" />
+        <Button
+                    android:id="@+id/Button_Imprimir"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Imprimir"
+                    android:layout_gravity="right">
+                    
+                </Button>
+</LinearLayout>

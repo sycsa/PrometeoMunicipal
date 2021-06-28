@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <dimen
+        name="device_actas_panel_padding">7dp</dimen>
+    <dimen name="device_actas_view_divisor_margin_bottom">10dp</dimen>
+      <dimen
+        name="device_actas_normal_size">16dp</dimen>
+    <dimen
+        name="logo_size">45dp</dimen>
+    <dimen
+        name="version_size">15dp</dimen>
+    <dimen
+        name="version_spacing">3dp</dimen>
+    <dimen
+        name="screen_title_size">20dp</dimen>
+    <dimen
+        name="menu_item_size">32dp</dimen>
+    <dimen
+        name="help_text_size">14dp</dimen>
+    <dimen
+        name="subtitle_text_size">20dp</dimen>
+    <!-- pt -->
+    <dimen
+        name="help_text_padding">20dp</dimen>
+    <dimen
+        name="help_text_fading">25dp</dimen>
+    <dimen
+        name="help_text_drawable_padding">5dp</dimen>
+    <dimen
+        name="game_button_size">75dp</dimen>
+    <dimen
+        name="game_padding">45dp</dimen>
+    <dimen
+        name="game_image_size">225dp</dimen>
+    <dimen
+        name="game_question_size">22dp</dimen>
+    
+    <dimen name="avatar_size">75dp</dimen>
+    <dimen name="imagen_fotos_acta_size_height">100dp</dimen>
+    <dimen name="imagen_fotos_acta_size_width">400dp</dimen>
+    <dimen name="textview_with_data_text_size">15pt</dimen>
+    <dimen name="textview_with_data2_text_size">10pt</dimen>
+    <dimen
+        name="fav_place_textbox_size">200dp</dimen>
+    <dimen
+        name="widget_text_size">26dp</dimen>
+    
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <!-- Nuevo -->
+    
+    <dimen name="standard_padding">8dip</dimen>
+    <dimen name="half_padding">4dip</dimen>
+</resources>

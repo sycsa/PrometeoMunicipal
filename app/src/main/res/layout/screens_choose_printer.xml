@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/LightGrey" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textStyle="bold" android:gravity="center"
+                     android:id="@id/knownPrinterLabel"
+                      android:layout_width="fill_parent" android:layout_height="30.0dip" 
+                      android:text="Impresoras Conocidas" android:visibility="gone" />
+                <ListView android:id="@id/knownPrintersList" android:background="@layout/rounded_corners" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_margin="10.0dip" android:cacheColorHint="@color/White" />
+                <TextView android:textStyle="bold" android:gravity="center" android:id="@id/discoPrinterLabel" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="Impresoras Detectadas por el Servicio de Bluetooth" android:textSize="@dimen/screen_title_size" />
+                <ListView android:id="@id/discoveredPrintersList" android:background="@layout/rounded_corners" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_margin="10.0dip" android:cacheColorHint="@color/White" />
+            </LinearLayout>
+<!--             <Button android:id="@id/add_printer_button" android:visibility="invisible" android:background="@drawable/ic_input_add" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginRight="4.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" /> -->
+<!--             <Button android:id="@id/add_printer_button_areaToClick" android:visibility="visible" android:clickable="true" android:layout_width="110.0dip" android:layout_height="70.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" /> -->
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="Remote Storage" android:key="REMOTE_STORAGE_CHECKBOX" android:summary="Remote Storage: Disabled" />
+    <Preference android:title="Test Remote Storage Settings" android:key="REMOTE_STORAGE_TEST" android:dependency="REMOTE_STORAGE_CHECKBOX" />
+    <PreferenceCategory android:title="Remote Storage Settings" android:key="REMOTE_STORAGE_SETTINGS" android:dependency="REMOTE_STORAGE_CHECKBOX">
+        <EditTextPreference android:title="URL" android:key="REMOTE_STORAGE_URL" android:summary="Current URL: http://" android:dependency="REMOTE_STORAGE_CHECKBOX" android:defaultValue="http://" android:inputType="textNoSuggestions|textUri" />
+        <EditTextPreference android:title="User Name" android:key="REMOTE_STORAGE_USERNAME" android:summary="Current User Name:" android:dependency="REMOTE_STORAGE_CHECKBOX" android:defaultValue="" android:inputType="textFilter|textNoSuggestions" />
+        <EditTextPreference android:password="true" android:title="Password" android:key="REMOTE_STORAGE_PASSWORD" android:dependency="REMOTE_STORAGE_CHECKBOX" android:defaultValue="" android:inputType="textNoSuggestions" />
+    </PreferenceCategory>
+</PreferenceScreen>
